@@ -1,0 +1,1092 @@
+1503489539288	geckodriver	INFO	Listening on 127.0.0.1:58822
+1503489540450	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503489541198	Marionette	INFO	Enabled via --marionette
+1503489543260	Marionette	INFO	Listening on port 44952
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503489543383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503489543425	Marionette	DEBUG	loaded listener.js
+1503489557199	geckodriver	INFO	Listening on 127.0.0.1:44654
+1503489558343	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503489559048	Marionette	INFO	Enabled via --marionette
+1503489560880	Marionette	INFO	Listening on port 44026
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503489561018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503489561074	Marionette	DEBUG	loaded listener.js
+1503489561103	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503489561181	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503489561181	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503489561522	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.naver.com/"
+1503489561528	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.naver.com/"
+1503489561621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nv.veta.naver.com/fxshow?su=SU10079&nrefreshx=0"
+1503489561691	Marionette	DEBUG	Received DOM event "pageshow" for "https://nv.veta.naver.com/fxshow?su=SU10079&nrefreshx=0"
+1503489561806	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.naver.com/"
+1503489561882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nv.veta.naver.com/fxshow?su=SU10078&nrefreshx=0"
+1503489561920	Marionette	DEBUG	Received DOM event "pageshow" for "https://nv.veta.naver.com/fxshow?su=SU10078&nrefreshx=0"
+1503489561921	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nv.veta.naver.com/fxshow?su=SU10082&nrefreshx=0"
+1503489561947	Marionette	DEBUG	Received DOM event "pageshow" for "https://nv.veta.naver.com/fxshow?su=SU10082&nrefreshx=0"
+1503489561972	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://castbox.shopping.naver.com/shopbox/main.nhn?svgless=true"
+1503489561983	Marionette	DEBUG	Received DOM event "pageshow" for "https://castbox.shopping.naver.com/shopbox/main.nhn?svgless=true"
+1503489561989	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.naver.com/"
+1503489844495	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 26740] WARNING: pipe error (36): 상대편이 연결을 끊음: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1503490609693	geckodriver	INFO	Listening on 127.0.0.1:57561
+1503490610850	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503490611572	Marionette	INFO	Enabled via --marionette
+1503490613444	Marionette	INFO	Listening on port 34959
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503490613467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503490613511	Marionette	DEBUG	loaded listener.js
+1503490613537	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503490614404	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503490614404	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503490619882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://icloud.cdn-apple.com/"
+1503490620483	Marionette	DEBUG	Received DOM event "pageshow" for "https://icloud.cdn-apple.com/"
+console.error: 
+  Got a removal of an actor we didn't know about: server1.conn0.child1/domnode144
+console.error: 
+  Got an addition of an actor we didn't know about: server1.conn0.child1/domnode153
+JavaScript error: https://icloud.cdn-apple.com/system/cloudos/17EHotfix1/en-us/javascript-packed.js, line 515: NetworkError: A network error occurred.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1503790121286	geckodriver	INFO	Listening on 127.0.0.1:58411
+1503790122432	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503790123138	Marionette	INFO	Enabled via --marionette
+1503790124990	Marionette	INFO	Listening on port 45431
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503790125054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503790125093	Marionette	DEBUG	loaded listener.js
+1503790125116	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503790125345	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503790125345	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503790125359	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503790625205	geckodriver	INFO	Listening on 127.0.0.1:37373
+1503790626358	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503790627052	Marionette	INFO	Enabled via --marionette
+1503790628780	Marionette	INFO	Listening on port 34498
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503790628916	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503790628974	Marionette	DEBUG	loaded listener.js
+1503790628999	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503790629253	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503790629254	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503790629259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/lmsdata/js/common.js:1304"
+1503790629278	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/lmsdata/js/common.js:1304"
+1503790636936	geckodriver	INFO	Listening on 127.0.0.1:47946
+1503790638087	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503790638793	Marionette	INFO	Enabled via --marionette
+1503790640512	Marionette	INFO	Listening on port 41780
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503790640650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503790640708	Marionette	DEBUG	loaded listener.js
+1503790640731	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503790640875	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503790640876	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503790640908	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/lmsdata/js/common.js"
+1503790640961	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/lmsdata/js/common.js"
+1503790917456	geckodriver	INFO	Listening on 127.0.0.1:50530
+1503790918582	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503790919284	Marionette	INFO	Enabled via --marionette
+1503790921129	Marionette	INFO	Listening on port 35130
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503790921212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503790921261	Marionette	DEBUG	loaded listener.js
+1503790921283	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503790921347	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503790921347	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503790921361	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/lmsdata/js/common.js, line 191: TypeError: $(...).autowidth_pf is not a function
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503791555596	geckodriver	INFO	Listening on 127.0.0.1:49280
+1503791556723	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503791557421	Marionette	INFO	Enabled via --marionette
+1503791559357	Marionette	INFO	Listening on port 40412
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503791559456	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503791559497	Marionette	DEBUG	loaded listener.js
+1503791559517	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503791559770	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503791559770	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503791559788	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503791624160	geckodriver	INFO	Listening on 127.0.0.1:47242
+1503791625308	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503791626018	Marionette	INFO	Enabled via --marionette
+1503791627760	Marionette	INFO	Listening on port 44626
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503791627897	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503791627953	Marionette	DEBUG	loaded listener.js
+1503791628016	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503791628080	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503791628080	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503791628093	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503791679290	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/index.jsp"
+1503791679359	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/index.jsp"
+1503791679359	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/index.jsp"
+1503791679637	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1503791679639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.naver.com/"
+1503791679643	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.naver.com/"
+1503791679737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nv.veta.naver.com/fxshow?su=SU10079&nrefreshx=0"
+1503791679778	Marionette	DEBUG	Received DOM event "pageshow" for "https://nv.veta.naver.com/fxshow?su=SU10079&nrefreshx=0"
+1503791679992	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.naver.com/"
+1503791680087	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nv.veta.naver.com/fxshow?su=SU10078&nrefreshx=0"
+1503791680095	Marionette	DEBUG	Received DOM event "pageshow" for "https://nv.veta.naver.com/fxshow?su=SU10078&nrefreshx=0"
+1503791680101	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://nv.veta.naver.com/fxshow?su=SU10082&nrefreshx=0"
+1503791680104	Marionette	DEBUG	Received DOM event "pageshow" for "https://nv.veta.naver.com/fxshow?su=SU10082&nrefreshx=0"
+1503791680119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://castbox.shopping.naver.com/shopbox/main.nhn?svgless=true"
+1503791680167	Marionette	DEBUG	Received DOM event "pageshow" for "https://castbox.shopping.naver.com/shopbox/main.nhn?svgless=true"
+1503791680172	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.naver.com/"
+1503791686432	Marionette	DEBUG	loaded listener.js
+1503791826098	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.naver.com/"
+1503791826192	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.naver.com/"
+1503791826195	Marionette	DEBUG	Received DOM event "unload" for "https://www.naver.com/"
+1503791826274	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503791833283	Marionette	DEBUG	loaded listener.js
+1503792409253	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1503792506391	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503792521740	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503792530535	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript error: https://eclass.dongguk.edu/lmsdata/js/jquery-ui.js, line 10556: TypeError: this._trackingInstances(...)[0] is undefined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503793273838	Marionette	DEBUG	loaded listener.js
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503793430887	geckodriver	INFO	Listening on 127.0.0.1:50169
+1503793432015	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503793432720	Marionette	INFO	Enabled via --marionette
+1503793434619	Marionette	INFO	Listening on port 39879
+1503793434634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503793434683	Marionette	DEBUG	loaded listener.js
+1503793434711	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503793434914	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503793434915	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503793434932	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503793480892	geckodriver	INFO	Listening on 127.0.0.1:57993
+1503793482021	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503793482743	Marionette	INFO	Enabled via --marionette
+1503793484612	Marionette	INFO	Listening on port 37283
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503793484640	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503793484683	Marionette	DEBUG	loaded listener.js
+1503793484712	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503793484773	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503793484774	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503793484784	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503793488029	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+console.error: 
+  Got a removal of an actor we didn't know about: server1.conn0.child1/domnode58
+console.error: 
+  Got an addition of an actor we didn't know about: server1.conn0.child1/domnode66
+1503794415436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503794470689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503795052083	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503795052483	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503795052487	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503795052836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503795053224	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503795053243	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503795053246	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503795053285	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503795154258	geckodriver	INFO	Listening on 127.0.0.1:59576
+1503795155408	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503795156118	Marionette	INFO	Enabled via --marionette
+1503795158034	Marionette	INFO	Listening on port 45872
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503795158130	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503795158179	Marionette	DEBUG	loaded listener.js
+1503795158204	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503795158477	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503795158478	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503795158491	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503795161713	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503795165869	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503795165972	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503795165975	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503795166195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503795166509	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503795166524	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503795166526	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503795166552	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503797715207	geckodriver	INFO	Listening on 127.0.0.1:59174
+1503797716360	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503797717072	Marionette	INFO	Enabled via --marionette
+1503797718980	Marionette	INFO	Listening on port 34823
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503797719096	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503797719147	Marionette	DEBUG	loaded listener.js
+1503797719173	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503797719384	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503797719385	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503797719396	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/lmsdata/js/common.js, line 191: TypeError: $(...).autowidth_pf is not a function
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503797722626	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503797726636	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503797726736	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503797726738	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503797726980	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503797727319	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503797727332	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503797727334	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503797727364	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798086242	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798086470	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798086473	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798086936	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1503798087207	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/User.do?cmd=otherLoginUserList"
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503798087257	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/User.do?cmd=otherLoginUserList"
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503798128346	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798128477	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798128480	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798128825	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1503798129070	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/User.do?cmd=otherLoginUserList"
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503798129084	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/User.do?cmd=otherLoginUserList"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome&userDTO.localeKey=ko, line 78: ReferenceError: event is not defined
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome&userDTO.localeKey=ko, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome&userDTO.localeKey=ko, line 78: ReferenceError: event is not defined
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503798257961	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&boardInfoDTO.boardInfoGubun=study_home&courseDTO.courseId=S2017U0002003USCS401902"
+1503798258220	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&boardInfoDTO.boardInfoGubun=study_home&courseDTO.courseId=S2017U0002003USCS401902"
+1503798258222	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&boardInfoDTO.boardInfoGubun=study_home&courseDTO.courseId=S2017U0002003USCS401902"
+1503798258458	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+1503798258957	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+1503798258959	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798258961	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798258974	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/tab.js, line 1620: TypeError: can't access dead object
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503798295228	geckodriver	INFO	Listening on 127.0.0.1:47625
+1503798296377	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503798297076	Marionette	INFO	Enabled via --marionette
+1503798298964	Marionette	INFO	Listening on port 46722
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503798298998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503798299046	Marionette	DEBUG	loaded listener.js
+1503798299073	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503798299287	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503798299288	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503798299311	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503798302527	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503798306471	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503798306564	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503798306564	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503798306807	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503798307142	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798307162	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798307165	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798307208	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798492208	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503798526986	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798527369	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798527371	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798527677	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1503798527953	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798527961	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798527964	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 832 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1503798527986	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798574700	geckodriver	INFO	Listening on 127.0.0.1:59180
+1503798575826	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503798576529	Marionette	INFO	Enabled via --marionette
+1503798578275	Marionette	INFO	Listening on port 41050
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503798578424	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503798578474	Marionette	DEBUG	loaded listener.js
+1503798578498	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503798578557	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503798578557	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503798578572	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503798581775	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503798625147	geckodriver	INFO	Listening on 127.0.0.1:38735
+1503798626299	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503798626997	Marionette	INFO	Enabled via --marionette
+1503798628903	Marionette	INFO	Listening on port 35956
+1503798628918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503798628970	Marionette	DEBUG	loaded listener.js
+1503798629010	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503798629263	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503798629264	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503798629301	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503798632554	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503798635321	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503798635442	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503798635443	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503798635652	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503798636021	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636039	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636041	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636077	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636382	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503798636439	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636522	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636523	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503798636723	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1503798636883	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798636896	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798636899	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503798636921	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503818376522	geckodriver	INFO	Listening on 127.0.0.1:38392
+1503818377987	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503818378800	Marionette	INFO	Enabled via --marionette
+1503818381432	Marionette	INFO	Listening on port 39720
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503818381616	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503818381666	Marionette	DEBUG	loaded listener.js
+1503818381691	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503818384350	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503818384352	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503818384376	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503818399281	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/lmsdata/js/jquery-ui.js, line 10556: TypeError: this._trackingInstances(...)[0] is undefined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503818469429	geckodriver	INFO	Listening on 127.0.0.1:54489
+1503818470584	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503818471386	Marionette	INFO	Enabled via --marionette
+1503818473633	Marionette	INFO	Listening on port 46394
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503818473768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503818473830	Marionette	DEBUG	loaded listener.js
+1503818473864	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503818474047	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503818474048	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503818474092	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 219: TypeError: log is undefined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome&userDTO.localeKey=ko, line 78: ReferenceError: event is not defined
+1503818521179	geckodriver	INFO	Listening on 127.0.0.1:46649
+1503818522324	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503818523389	Marionette	INFO	Enabled via --marionette
+1503818525780	Marionette	INFO	Listening on port 43028
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503818525842	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503818525888	Marionette	DEBUG	loaded listener.js
+1503818529175	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503818529600	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503818529601	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503818529628	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503818540402	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+1503818590582	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503818592169	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503818592171	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503818592849	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503818602069	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602084	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602086	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602126	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602432	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503818602476	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602643	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602645	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503818602672	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503818602703	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503818678477	Marionette	DEBUG	loaded listener.js
+1503820060010	geckodriver	INFO	Listening on 127.0.0.1:56192
+1503820061169	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503820062363	Marionette	INFO	Enabled via --marionette
+1503820064708	Marionette	INFO	Listening on port 39440
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503820064795	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503820064842	Marionette	DEBUG	loaded listener.js
+1503820064882	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503820065354	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503820065355	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503820065381	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503820109815	geckodriver	INFO	Listening on 127.0.0.1:53143
+1503820110942	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503820111952	Marionette	INFO	Enabled via --marionette
+1503820114380	Marionette	INFO	Listening on port 36432
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503820114465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503820114517	Marionette	DEBUG	loaded listener.js
+1503820114551	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503820114716	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503820114717	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503820114733	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503820120297	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/lmsdata/js/jquery-ui.js, line 10556: TypeError: this._trackingInstances(...)[0] is undefined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503820158513	geckodriver	INFO	Listening on 127.0.0.1:48693
+1503820159641	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503820160706	Marionette	INFO	Enabled via --marionette
+1503820162897	Marionette	INFO	Listening on port 43673
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503820163026	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503820163097	Marionette	DEBUG	loaded listener.js
+1503820163132	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503820163251	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503820163252	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503820163268	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503820168834	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503820175154	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503820180370	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503820180451	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+1503837072264	geckodriver	INFO	Listening on 127.0.0.1:46328
+1503837073673	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503837074513	Marionette	INFO	Enabled via --marionette
+1503837077162	Marionette	INFO	Listening on port 39497
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503837077321	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503837077375	Marionette	DEBUG	loaded listener.js
+1503837077410	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503837077695	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503837077696	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503837077741	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503837147841	geckodriver	INFO	Listening on 127.0.0.1:55735
+1503837148992	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503837150036	Marionette	INFO	Enabled via --marionette
+1503837152388	Marionette	INFO	Listening on port 33731
+1503837152415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503837152464	Marionette	DEBUG	loaded listener.js
+1503837152496	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503837152872	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503837152873	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503837152889	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503837179072	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503837236674	geckodriver	INFO	Listening on 127.0.0.1:57421
+1503837237824	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503837238621	Marionette	INFO	Enabled via --marionette
+1503837241024	Marionette	INFO	Listening on port 44948
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503837241053	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503837241099	Marionette	DEBUG	loaded listener.js
+1503837241125	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503837241195	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503837241195	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503837241207	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503837266310	geckodriver	INFO	Listening on 127.0.0.1:34922
+1503837267471	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503837268269	Marionette	INFO	Enabled via --marionette
+1503837270610	Marionette	INFO	Listening on port 43251
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503837270690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503837270736	Marionette	DEBUG	loaded listener.js
+1503837270771	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503837270857	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503837270858	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503837270869	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503837714577	geckodriver	INFO	Listening on 127.0.0.1:43920
+1503837715703	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503837716767	Marionette	INFO	Enabled via --marionette
+1503837719185	Marionette	INFO	Listening on port 42105
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503837719227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503837719274	Marionette	DEBUG	loaded listener.js
+1503837719300	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503837719587	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503837719587	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503837719597	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503838229758	geckodriver	INFO	Listening on 127.0.0.1:44312
+1503838230887	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503838231977	Marionette	INFO	Enabled via --marionette
+1503838234300	Marionette	INFO	Listening on port 36401
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503838234427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503838234471	Marionette	DEBUG	loaded listener.js
+1503838234495	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503838234754	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503838234756	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503838234774	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503838368563	geckodriver	INFO	Listening on 127.0.0.1:54707
+1503838369712	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503838370793	Marionette	INFO	Enabled via --marionette
+1503838373116	Marionette	INFO	Listening on port 43011
+1503838373130	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503838373198	Marionette	DEBUG	loaded listener.js
+1503838373259	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503838373612	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503838373614	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503838373647	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503838392729	Marionette	DEBUG	loaded listener.js
+1503838467578	geckodriver	INFO	Listening on 127.0.0.1:58225
+1503838468703	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503838469804	Marionette	INFO	Enabled via --marionette
+1503838472048	Marionette	INFO	Listening on port 33786
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503838472180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503838472249	Marionette	DEBUG	loaded listener.js
+1503838472309	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503838472867	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503838472868	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503838472898	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503838564571	geckodriver	INFO	Listening on 127.0.0.1:58825
+1503838565720	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503838566696	Marionette	INFO	Enabled via --marionette
+1503838570455	Marionette	INFO	Listening on port 38665
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503838570548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503838570600	Marionette	DEBUG	loaded listener.js
+1503838570619	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503838570889	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503838570889	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503838570903	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503838704374	geckodriver	INFO	Listening on 127.0.0.1:42525
+1503838705525	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503838706578	Marionette	INFO	Enabled via --marionette
+1503838709014	Marionette	INFO	Listening on port 40920
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503838709061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503838709111	Marionette	DEBUG	loaded listener.js
+1503838709154	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503838710794	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503838710795	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503838710818	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503839073072	geckodriver	INFO	Listening on 127.0.0.1:58889
+1503839074207	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503839075003	Marionette	INFO	Enabled via --marionette
+1503839077205	Marionette	INFO	Listening on port 46461
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503839077330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503839077383	Marionette	DEBUG	loaded listener.js
+1503839077414	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503839079335	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503839079336	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503839079377	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+1503839132476	geckodriver	INFO	Listening on 127.0.0.1:47293
+1503839133635	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503839134784	Marionette	INFO	Enabled via --marionette
+1503839137065	Marionette	INFO	Listening on port 40870
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503839137196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503839137262	Marionette	DEBUG	loaded listener.js
+1503839137289	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503839143706	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503839143706	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503839143722	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503839163759	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503839246315	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503839246639	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503839246651	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503839249302	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503839249470	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839249486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839249488	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839251877	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839257218	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503839257280	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839257438	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839257441	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839257648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1503839260696	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839260705	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839260707	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839262915	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839843464	geckodriver	INFO	Listening on 127.0.0.1:41670
+1503839844618	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503839845410	Marionette	INFO	Enabled via --marionette
+1503839847646	Marionette	INFO	Listening on port 38003
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503839847777	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503839847837	Marionette	DEBUG	loaded listener.js
+1503839847871	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503839849784	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503839849785	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503839849809	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503839867538	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503839876685	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503839877653	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503839877655	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503839878476	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503839906526	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839906545	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839906547	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839933677	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839933982	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503839934036	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839934462	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839934464	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503839934656	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1503839936758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839936770	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839936772	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503839937396	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Report.do?cmd=viewReportInfoPageList&boardInfoDTO.boardInfoGubun=report&courseDTO.courseId=S2017U0002003USCS401902&mainDTO.parentMenuId=menu_00104&mainDTO.menuId=menu_00063"
+1503843499691	geckodriver	INFO	Listening on 127.0.0.1:40457
+1503843500820	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1503843501525	Marionette	INFO	Enabled via --marionette
+1503843503400	Marionette	INFO	Listening on port 33609
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503843503451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503843503495	Marionette	DEBUG	loaded listener.js
+1503843503517	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503843503863	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503843503863	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503843503877	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503843508428	Marionette	DEBUG	Received DOM event "hashchange" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome#0"
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
+1503843513209	Marionette	DEBUG	Received DOM event "beforeunload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503843514103	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503843514105	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Main.do?cmd=viewHome"
+1503843515313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1503843523263	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503843523282	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503843523284	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503843528581	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503843529096	Marionette	DEBUG	Received DOM event "pagehide" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503843529096	Marionette	DEBUG	Received DOM event "unload" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003USCS401902&boardInfoDTO.boardInfoGubun=study_home&gubun=study_course"
+1503843529281	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1503843529730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003UCSE405801&boardInfoDTO.boardInfoGubun=study_home&boardGubun=study_course&gubun=study_course"
+1503843529750	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003UCSE405801&boardInfoDTO.boardInfoGubun=study_home&boardGubun=study_course&gubun=study_course"
+1503843529759	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003UCSE405801&boardInfoDTO.boardInfoGubun=study_home&boardGubun=study_course&gubun=study_course"
+1503843529947	Marionette	DEBUG	Received DOM event "pageshow" for "https://eclass.dongguk.edu/Course.do?cmd=viewStudyHome&courseDTO.courseId=S2017U0002003UCSE405801&boardInfoDTO.boardInfoGubun=study_home&boardGubun=study_course&gubun=study_course"

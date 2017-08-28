@@ -1,0 +1,7 @@
+12-01 cake
+12-01 apple
+12-01 candle
+12-02 pizza
+12-02 coke
+12-03 candy
+12-03 cookie

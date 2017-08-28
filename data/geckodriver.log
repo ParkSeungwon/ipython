@@ -1,0 +1,23 @@
+1501496601290	geckodriver	INFO	Listening on 127.0.0.1:46676
+1501496602450	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501496605145	Marionette	INFO	Listening on port 38062
+1501496605214	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501496621207	geckodriver	INFO	Listening on 127.0.0.1:41524
+1501496622357	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501496624986	Marionette	INFO	Listening on port 35432
+1501496625075	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 104: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 104: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js, line 306: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIInterfaceRequestor.getInterface]
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js, line 306: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIInterfaceRequestor.getInterface]
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js, line 306: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIInterfaceRequestor.getInterface]
+1501516990016	Marionette	INFO	Ceased listening
