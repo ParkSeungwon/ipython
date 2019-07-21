@@ -41,3 +41,4 @@ find
 +3M
 ./data/baseball/database.sqlite
 ./.git/objects/pack/pack-8b0b104afb2838b08f792e205731458bb0b5bf9d.pack
+data/baseball/database.sqlite
