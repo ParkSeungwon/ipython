@@ -1279,3 +1279,11 @@ JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: Refe
 JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
 JavaScript error: https://eclass.dongguk.edu/Main.do?cmd=viewHome, line 78: ReferenceError: event is not defined
 JavaScript error: https://eclass.dongguk.edu/lmsdata/js/common.js, line 191: TypeError: $(...).autowidth_pf is not a function
+1568310332365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6WXPlw"
+1568310339032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568310339033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568310339033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568310339033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568310350970	Marionette	INFO	Listening on port 39237
+1568310351079	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568310869617	Marionette	INFO	Stopped listening on port 39237
