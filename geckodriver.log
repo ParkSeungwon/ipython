@@ -1902,3 +1902,6 @@ receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
 Line: 678, column: 0
 console.error: ({})
 JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 678: NS_ERROR_FILE_ACCESS_DENIED: Failed to open input source 'file:///'
+[Child 17578, Chrome_ChildThread] WARNING: pipe error: 파이프가 깨어짐: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Parent 17495, Gecko_IOThread] WARNING: pipe error (70): 상대편이 연결을 끊음: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1573620246302	Marionette	INFO	Stopped listening on port 33951
