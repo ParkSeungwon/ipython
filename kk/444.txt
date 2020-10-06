@@ -1,0 +1,2453 @@
+<html dir="ltr" class="websize-1" lang="ko-KR"><!--<![endif]--><!-- <html dir="ltr" lang="ko-KR"><![endif] --><head>
+	<script>
+	   if(window.location.protocol == "https:" && location.pathname.indexOf("/mainPage.do") > -1 &&( "" ==""&& "" ==""&& "" =="")){
+	   	document.location.href="http://"+document.domain+"/mainPage.do";
+	   }
+	</script>
+		
+	<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+	<script type="text/javascript">
+	if(!wcs_add) var wcs_add = {};
+	wcs_add["wa"] = "1d11323b80808b";
+	wcs_do();
+	</script>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="keywords" content="경기지역화폐">
+	<meta name="author" content="jun-doo">
+	<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="경기지역화폐는 지역경제 활성화를 위해 경기도 시·군에서 발행하고 사용하는 대안화폐로 대형마트, 백화점을 제외한 우리동네 상점에서 사용하실 수 있습니다.">
+	<link rel="canonical" href="http://www.gmoney.or.kr">
+	<!-- link rel="shortcut icon" href="/commons/cmm/images/icon/favicon.ico" -->
+	<link rel="stylesheet" type="text/css" media="all" href="/commons/main/css/reset.css">
+	<link rel="stylesheet" type="text/css" media="all" href="/commons//main/css/board.css">
+	<link rel="stylesheet" type="text/css" media="all" href="/commons//main/css/global.css">
+	<link rel="stylesheet" type="text/css" media="all" href="/commons//main/css/mobile.css">
+	<link rel="stylesheet" type="text/css" media="all" href="/commons/cmm/css/jquery-ui.min.css">	
+	<link rel="stylesheet" type="text/css" media="print" href="/commons/main/css/print.css">
+	
+	
+	<script src="/commons/cmm/js/jquery.js"></script>
+	<script src="/commons/cmm/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="/commons/cmm/js/jquery.cookie.min.js"></script>
+	<script src="/commons/cmm/js/site.js"></script>
+<!-- 	<script src="/commons/cmm/js/jquery-ui.min.js"></script> -->
+<!-- 	<script src="/commons/cmm/js/showModalDialog.js"></script> -->
+	<script src="/commons/cmm/js/jquery.cycle.2.min.js"></script>
+	<script src="/commons/cmm/js/jquery.cycle.2.carousel.min.js"></script>
+	<script src="/commons/cmm/js/jquery.cycle.2.swipe.min.js"></script>
+    <script src="/commons/cmm/js/jquery.magnific-popup.min.js"></script>
+	<script src="/commons/cmm/js/jquery.flexslider.js"></script>
+	<script src="/commons/cmm/js/jquery.validate.js"></script>
+	<script src="/commons/cmm/js/common.js"></script>
+    <script>/*
+			if(navigator.userAgent.match(/Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/)){
+				//pc 제외 css 링크 삽입
+			  function addCss(){
+				var ele=document.createElement('link');
+
+				ele.href="/commons/main/css/pad.css";
+				ele.rel="stylesheet";
+				ele.type="text/css";
+
+				document.getElementsByTagName('head')[0].appendChild(ele);
+			  }
+			  addCss();
+
+			}*/
+		</script>
+    
+
+	<script src="/commons/cmm/js/common.js"></script>
+	<script src="/commons/cmm/js/menu.js"></script>
+    <!--[if lt IE 9]>
+        <script src="/commons/cmm/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <title> ▦ 경기지역화폐</title><!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0e8338de0e1ada6214b1da136f02131f"></script> -->
+<script type="text/javascript">
+
+function getMap() {
+	document.gmoneyMapForm.pageIndex.value = 1;
+  	document.gmoneyMapForm.submit();
+}
+
+$(function(){
+	
+	 $.ajax({
+		type: "get",
+		url: "http://openapi.nsdi.go.kr/nsdi/eios/service/rest/AdmService/admCodeList.json",
+		data : {authkey : $('#sido_key').val()},
+		async: false,
+		dataType: 'json',
+		success: function(data) {
+			var html = "<option>선택</option>";
+			
+			for(var i=0;i<data.admVOList.admVOList.length;i++){ 
+				html +="<option value='"+data.admVOList.admVOList[i].admCode+"'>"+data.admVOList.admVOList[i].lowestAdmCodeNm+"</option>"
+			}
+			
+			$('#sido_code').html(html);
+			
+		},
+		error: function(xhr, stat, err) {}
+	}); 
+	/* 
+	// 버튼을 클릭하면 아래 배열의 좌표들이 모두 보이게 지도 범위를 재설정합니다 
+	var points = new Array();
+	var points2 = new Array();
+	
+	var lati= "33.450701";
+	var longi = "126.570667";
+	
+	
+					points.push(new daum.maps.LatLng(37.27901013,127.01578132));
+					points2.push("<div>로즈모텔</div>");
+					lati = "37.27901013";
+					longi = "127.01578132";
+					
+					points.push(new daum.maps.LatLng(37.26674219,127.06181027));
+					points2.push("<div>김영숙칼국수</div>");
+					lati = "37.26674219";
+					longi = "127.06181027";
+					
+					points.push(new daum.maps.LatLng(37.25682648,127.01844909));
+					points2.push("<div>이  솜씨 아크릴</div>");
+					lati = "37.25682648";
+					longi = "127.01844909";
+					
+					points.push(new daum.maps.LatLng(37.250633398,127.07514309));
+					points2.push("<div>락빈칼국수</div>");
+					lati = "37.250633398";
+					longi = "127.07514309";
+					
+					points.push(new daum.maps.LatLng(37.306347805,126.99742258));
+					points2.push("<div>신세계유통</div>");
+					lati = "37.306347805";
+					longi = "126.99742258";
+					
+					points.push(new daum.maps.LatLng(37.298624906,127.02011565));
+					points2.push("<div>프랑세즈</div>");
+					lati = "37.298624906";
+					longi = "127.02011565";
+					
+					points.push(new daum.maps.LatLng(37.275152209,126.93365298));
+					points2.push("<div>엘지세탁</div>");
+					lati = "37.275152209";
+					longi = "126.93365298";
+					
+					points.push(new daum.maps.LatLng(37.250905802,127.02425268));
+					points2.push("<div>하늘공연기획</div>");
+					lati = "37.250905802";
+					longi = "127.02425268";
+					
+					points.push(new daum.maps.LatLng(37.25204711,127.03705758));
+					points2.push("<div>GS25수원은혜점</div>");
+					lati = "37.25204711";
+					longi = "127.03705758";
+					
+					points.push(new daum.maps.LatLng(37.278875663,127.00475373));
+					points2.push("<div>미성서적</div>");
+					lati = "37.278875663";
+					longi = "127.00475373";
+					
+					points.push(new daum.maps.LatLng(37.277122842,127.0367532));
+					points2.push("<div>옥시주단</div>");
+					lati = "37.277122842";
+					longi = "127.0367532";
+					
+					points.push(new daum.maps.LatLng(37.266458658,126.95456253));
+					points2.push("<div>머리해여</div>");
+					lati = "37.266458658";
+					longi = "126.95456253";
+					
+					points.push(new daum.maps.LatLng(37.297763633,127.04227761));
+					points2.push("<div>착한고기</div>");
+					lati = "37.297763633";
+					longi = "127.04227761";
+					
+					points.push(new daum.maps.LatLng(37.268711993,127.00750436));
+					points2.push("<div>노무법인승리</div>");
+					lati = "37.268711993";
+					longi = "127.00750436";
+					
+					points.push(new daum.maps.LatLng(37.266873983,127.00328783));
+					points2.push("<div>매산건어물</div>");
+					lati = "37.266873983";
+					longi = "127.00328783";
+					
+					points.push(new daum.maps.LatLng(37.268099383,127.00266777));
+					points2.push("<div>불닭발동대문엽기떡볶이 수원역점</div>");
+					lati = "37.268099383";
+					longi = "127.00266777";
+					
+					points.push(new daum.maps.LatLng(37.26679377,127.08158461));
+					points2.push("<div>정아트 취미실용미술학원</div>");
+					lati = "37.26679377";
+					longi = "127.08158461";
+					
+					points.push(new daum.maps.LatLng(37.29781498,127.01069795));
+					points2.push("<div>마돈나/마을을가꾸는돈가스나들터사회적협</div>");
+					lati = "37.29781498";
+					longi = "127.01069795";
+					
+					points.push(new daum.maps.LatLng(37.27387733,126.94198629));
+					points2.push("<div>점핑클럽 음악줄넘기</div>");
+					lati = "37.27387733";
+					longi = "126.94198629";
+					
+					points.push(new daum.maps.LatLng(37.298009837,126.97359173));
+					points2.push("<div>커피9</div>");
+					lati = "37.298009837";
+					longi = "126.97359173";
+					
+					points.push(new daum.maps.LatLng(37.29781498,127.01069795));
+					points2.push("<div>솔대노리협동조합</div>");
+					lati = "37.29781498";
+					longi = "127.01069795";
+					
+					points.push(new daum.maps.LatLng(37.304654007,127.00283685));
+					points2.push("<div>에코버튼주식회사</div>");
+					lati = "37.304654007";
+					longi = "127.00283685";
+					
+					points.push(new daum.maps.LatLng(37.305397623,126.97123143));
+					points2.push("<div>For you 디자인</div>");
+					lati = "37.305397623";
+					longi = "126.97123143";
+					
+					points.push(new daum.maps.LatLng(37.28384898,127.01219626));
+					points2.push("<div>궁칼국수</div>");
+					lati = "37.28384898";
+					longi = "127.01219626";
+					
+					points.push(new daum.maps.LatLng(37.273795143,127.04572651));
+					points2.push("<div>시원</div>");
+					lati = "37.273795143";
+					longi = "127.04572651";
+					
+					points.push(new daum.maps.LatLng(37.245571216,127.02675326));
+					points2.push("<div>초록별음악교습소</div>");
+					lati = "37.245571216";
+					longi = "127.02675326";
+					
+					points.push(new daum.maps.LatLng(37.260410072,127.03180819));
+					points2.push("<div>블리스(BLISS)</div>");
+					lati = "37.260410072";
+					longi = "127.03180819";
+					
+					points.push(new daum.maps.LatLng(37.299844614,127.04341785));
+					points2.push("<div>씨유광교중앙점</div>");
+					lati = "37.299844614";
+					longi = "127.04341785";
+					
+					points.push(new daum.maps.LatLng(37.239578705,127.05633454));
+					points2.push("<div>부강축산</div>");
+					lati = "37.239578705";
+					longi = "127.05633454";
+					
+					points.push(new daum.maps.LatLng(37.298237457,127.02017195));
+					points2.push("<div>노벰버(November)</div>");
+					lati = "37.298237457";
+					longi = "127.02017195";
+					
+					points.push(new daum.maps.LatLng(37.291210386,127.01187012));
+					points2.push("<div>새림</div>");
+					lati = "37.291210386";
+					longi = "127.01187012";
+					
+					points.push(new daum.maps.LatLng(37.283073544,127.0176426));
+					points2.push("<div>주식회사위대한국보환경</div>");
+					lati = "37.283073544";
+					longi = "127.0176426";
+					
+					points.push(new daum.maps.LatLng(37.290065885,127.01419311));
+					points2.push("<div>홍어1번가</div>");
+					lati = "37.290065885";
+					longi = "127.01419311";
+					
+					points.push(new daum.maps.LatLng(37.261206894,127.04808671));
+					points2.push("<div>좋은이불</div>");
+					lati = "37.261206894";
+					longi = "127.04808671";
+					
+					points.push(new daum.maps.LatLng(37.292633741,126.99092762));
+					points2.push("<div>우리테크원</div>");
+					lati = "37.292633741";
+					longi = "126.99092762";
+					
+					points.push(new daum.maps.LatLng(37.305455423,126.99206483));
+					points2.push("<div>해우리의원</div>");
+					lati = "37.305455423";
+					longi = "126.99206483";
+					
+					points.push(new daum.maps.LatLng(37.273015668,126.97480782));
+					points2.push("<div>잉글리쉬무무탑동제일학습관학원</div>");
+					lati = "37.273015668";
+					longi = "126.97480782";
+					
+					points.push(new daum.maps.LatLng(37.262573936,127.02539457));
+					points2.push("<div>이모동태탕</div>");
+					lati = "37.262573936";
+					longi = "127.02539457";
+					
+					points.push(new daum.maps.LatLng(37.306041298,126.99467035));
+					points2.push("<div>우리토탈</div>");
+					lati = "37.306041298";
+					longi = "126.99467035";
+					
+					points.push(new daum.maps.LatLng(37.255770198,127.02998032));
+					points2.push("<div>정자이발</div>");
+					lati = "37.255770198";
+					longi = "127.02998032";
+					
+					points.push(new daum.maps.LatLng(37.263505494,127.08085969));
+					points2.push("<div>해법공부방</div>");
+					lati = "37.263505494";
+					longi = "127.08085969";
+					
+					points.push(new daum.maps.LatLng(37.280154803,126.9940079));
+					points2.push("<div>에밀리</div>");
+					lati = "37.280154803";
+					longi = "126.9940079";
+					
+					points.push(new daum.maps.LatLng(37.283430602,127.03469246));
+					points2.push("<div>두그루식당</div>");
+					lati = "37.283430602";
+					longi = "127.03469246";
+					
+					points.push(new daum.maps.LatLng(37.291850743,127.04833059));
+					points2.push("<div>율헤어</div>");
+					lati = "37.291850743";
+					longi = "127.04833059";
+					
+					points.push(new daum.maps.LatLng(37.260736489,127.02164013));
+					points2.push("<div>현대사무용가구</div>");
+					lati = "37.260736489";
+					longi = "127.02164013";
+					
+					points.push(new daum.maps.LatLng(37.261430449,127.02055809));
+					points2.push("<div>레드</div>");
+					lati = "37.261430449";
+					longi = "127.02055809";
+					
+					points.push(new daum.maps.LatLng(37.287732583,127.00950155));
+					points2.push("<div>영화인테리어</div>");
+					lati = "37.287732583";
+					longi = "127.00950155";
+					
+					points.push(new daum.maps.LatLng(37.303815679,127.01233407));
+					points2.push("<div>애슐리헤어</div>");
+					lati = "37.303815679";
+					longi = "127.01233407";
+					
+					points.push(new daum.maps.LatLng(37.234218446,127.02549883));
+					points2.push("<div>세모</div>");
+					lati = "37.234218446";
+					longi = "127.02549883";
+					
+					points.push(new daum.maps.LatLng(37.272880602,127.05675269));
+					points2.push("<div>가람어린이집[아이행복]</div>");
+					lati = "37.272880602";
+					longi = "127.05675269";
+					
+					points.push(new daum.maps.LatLng(37.275379685,127.00411096));
+					points2.push("<div>시온냉동</div>");
+					lati = "37.275379685";
+					longi = "127.00411096";
+					
+					points.push(new daum.maps.LatLng(37.257014588,126.9804274));
+					points2.push("<div>SK모터스</div>");
+					lati = "37.257014588";
+					longi = "126.9804274";
+					
+					points.push(new daum.maps.LatLng(37.252237928,127.07399491));
+					points2.push("<div>아모레카운셀러</div>");
+					lati = "37.252237928";
+					longi = "127.07399491";
+					
+					points.push(new daum.maps.LatLng(37.301626443,127.00834102));
+					points2.push("<div>주식회사 에스티제이</div>");
+					lati = "37.301626443";
+					longi = "127.00834102";
+					
+					points.push(new daum.maps.LatLng(37.2911554,127.02019289));
+					points2.push("<div>아모레카운셀러</div>");
+					lati = "37.2911554";
+					longi = "127.02019289";
+					
+					points.push(new daum.maps.LatLng(37.257984591,127.03811988));
+					points2.push("<div>아이들세상</div>");
+					lati = "37.257984591";
+					longi = "127.03811988";
+					
+					points.push(new daum.maps.LatLng(37.30290315,126.97681569));
+					points2.push("<div>이레철물전기</div>");
+					lati = "37.30290315";
+					longi = "126.97681569";
+					
+					points.push(new daum.maps.LatLng(37.265909358,127.08366932));
+					points2.push("<div>루디아</div>");
+					lati = "37.265909358";
+					longi = "127.08366932";
+					
+					points.push(new daum.maps.LatLng(37.271070539,127.02591572));
+					points2.push("<div>토탈공방</div>");
+					lati = "37.271070539";
+					longi = "127.02591572";
+					
+					points.push(new daum.maps.LatLng(37.241768205,127.02980626));
+					points2.push("<div>부타타투아카데미</div>");
+					lati = "37.241768205";
+					longi = "127.02980626";
+					
+					points.push(new daum.maps.LatLng(37.250434666,127.07596571));
+					points2.push("<div>포명천천</div>");
+					lati = "37.250434666";
+					longi = "127.07596571";
+					
+					points.push(new daum.maps.LatLng(37.303013589,127.01436424));
+					points2.push("<div>웰빙반찬</div>");
+					lati = "37.303013589";
+					longi = "127.01436424";
+					
+					points.push(new daum.maps.LatLng(37.282929971,126.9940865));
+					points2.push("<div>헤러베라</div>");
+					lati = "37.282929971";
+					longi = "126.9940865";
+					
+					points.push(new daum.maps.LatLng(37.266373934,127.05941994));
+					points2.push("<div>에스가드코리아</div>");
+					lati = "37.266373934";
+					longi = "127.05941994";
+					
+					points.push(new daum.maps.LatLng(37.2911554,127.02019289));
+					points2.push("<div>아모레카운셀러</div>");
+					lati = "37.2911554";
+					longi = "127.02019289";
+					
+					points.push(new daum.maps.LatLng(37.275959235,127.0409696));
+					points2.push("<div>동수원요리전문학원</div>");
+					lati = "37.275959235";
+					longi = "127.0409696";
+					
+					points.push(new daum.maps.LatLng(37.267908201,127.02447169));
+					points2.push("<div>유비스포</div>");
+					lati = "37.267908201";
+					longi = "127.02447169";
+					
+					points.push(new daum.maps.LatLng(37.292706202,127.0102012));
+					points2.push("<div>까롱헤어</div>");
+					lati = "37.292706202";
+					longi = "127.0102012";
+					
+					points.push(new daum.maps.LatLng(37.29781498,127.01069795));
+					points2.push("<div>SNB</div>");
+					lati = "37.29781498";
+					longi = "127.01069795";
+					
+					points.push(new daum.maps.LatLng(37.292237196,127.05083445));
+					points2.push("<div>수학날개학원</div>");
+					lati = "37.292237196";
+					longi = "127.05083445";
+					
+					points.push(new daum.maps.LatLng(37.301820054,126.96939444));
+					points2.push("<div>민구텔레콤</div>");
+					lati = "37.301820054";
+					longi = "126.96939444";
+					
+					points.push(new daum.maps.LatLng(37.302536576,127.00539722));
+					points2.push("<div>땅콩</div>");
+					lati = "37.302536576";
+					longi = "127.00539722";
+					
+					points.push(new daum.maps.LatLng(37.275960899,127.03538838));
+					points2.push("<div>하늘음악교습소</div>");
+					lati = "37.275960899";
+					longi = "127.03538838";
+					
+					points.push(new daum.maps.LatLng(37.277898238,126.97087086));
+					points2.push("<div>호매실장애인보호작업장</div>");
+					lati = "37.277898238";
+					longi = "126.97087086";
+					
+					points.push(new daum.maps.LatLng(37.244154953,127.0585017));
+					points2.push("<div>뽕뜨락피자 영통1호점</div>");
+					lati = "37.244154953";
+					longi = "127.0585017";
+					
+					points.push(new daum.maps.LatLng(37.265794816,126.9623418));
+					points2.push("<div>능실경희대석사인성태권도</div>");
+					lati = "37.265794816";
+					longi = "126.9623418";
+					
+					points.push(new daum.maps.LatLng(37.261767906,127.04136829));
+					points2.push("<div>두부장수</div>");
+					lati = "37.261767906";
+					longi = "127.04136829";
+					
+					points.push(new daum.maps.LatLng(37.255850672,127.07464082));
+					points2.push("<div>이챕터스학원</div>");
+					lati = "37.255850672";
+					longi = "127.07464082";
+					
+					points.push(new daum.maps.LatLng(37.285765005,127.03178406));
+					points2.push("<div>화정축산</div>");
+					lati = "37.285765005";
+					longi = "127.03178406";
+					
+					points.push(new daum.maps.LatLng(37.292066488,127.04961636));
+					points2.push("<div>커피에반하다</div>");
+					lati = "37.292066488";
+					longi = "127.04961636";
+					
+					points.push(new daum.maps.LatLng(37.266406328,127.08158421));
+					points2.push("<div>아모레카운셀러</div>");
+					lati = "37.266406328";
+					longi = "127.08158421";
+					
+					points.push(new daum.maps.LatLng(37.251158116,126.981669));
+					points2.push("<div>고색자전거수리점</div>");
+					lati = "37.251158116";
+					longi = "126.981669";
+					
+					points.push(new daum.maps.LatLng(37.276595124,127.01792322));
+					points2.push("<div>단골양행</div>");
+					lati = "37.276595124";
+					longi = "127.01792322";
+					
+					points.push(new daum.maps.LatLng(37.311841691,126.97867389));
+					points2.push("<div>추오정 남원 추어탕</div>");
+					lati = "37.311841691";
+					longi = "126.97867389";
+					
+					points.push(new daum.maps.LatLng(37.250716704,127.02358761));
+					points2.push("<div>황소곱창</div>");
+					lati = "37.250716704";
+					longi = "127.02358761";
+					
+					points.push(new daum.maps.LatLng(37.2789009,127.02358405));
+					points2.push("<div>광명건축</div>");
+					lati = "37.2789009";
+					longi = "127.02358405";
+					
+					points.push(new daum.maps.LatLng(37.287378866,127.02722881));
+					points2.push("<div>크리스탈샘물</div>");
+					lati = "37.287378866";
+					longi = "127.02722881";
+					
+					points.push(new daum.maps.LatLng(37.257818423,126.9957803));
+					points2.push("<div>평동광택사</div>");
+					lati = "37.257818423";
+					longi = "126.9957803";
+					
+					points.push(new daum.maps.LatLng(37.264489851,127.07738847));
+					points2.push("<div>가츠맘</div>");
+					lati = "37.264489851";
+					longi = "127.07738847";
+					
+					points.push(new daum.maps.LatLng(37.238713936,127.05583807));
+					points2.push("<div>가비앙</div>");
+					lati = "37.238713936";
+					longi = "127.05583807";
+					
+					points.push(new daum.maps.LatLng(37.265096311,127.0279206));
+					points2.push("<div>에이스중기</div>");
+					lati = "37.265096311";
+					longi = "127.0279206";
+					
+					points.push(new daum.maps.LatLng(37.291740042,127.05461212));
+					points2.push("<div>GS25광교대림점</div>");
+					lati = "37.291740042";
+					longi = "127.05461212";
+					
+					points.push(new daum.maps.LatLng(37.248271144,127.07764301));
+					points2.push("<div>에이팩토리</div>");
+					lati = "37.248271144";
+					longi = "127.07764301";
+					
+					points.push(new daum.maps.LatLng(37.280038,127.00203629));
+					points2.push("<div>김민정헤어갤러리</div>");
+					lati = "37.280038";
+					longi = "127.00203629";
+					
+					points.push(new daum.maps.LatLng(37.275959235,127.0409696));
+					points2.push("<div>강선화헤어뷰티</div>");
+					lati = "37.275959235";
+					longi = "127.0409696";
+					
+					points.push(new daum.maps.LatLng(37.252717314,127.07086182));
+					points2.push("<div>코리안숯불바베큐</div>");
+					lati = "37.252717314";
+					longi = "127.07086182";
+					
+					points.push(new daum.maps.LatLng(37.248076767,127.05330863));
+					points2.push("<div>신통치킨</div>");
+					lati = "37.248076767";
+					longi = "127.05330863";
+					
+					points.push(new daum.maps.LatLng(37.291849331,127.01920062));
+					points2.push("<div>오리진애드</div>");
+					lati = "37.291849331";
+					longi = "127.01920062";
+					
+					points.push(new daum.maps.LatLng(37.298424961,127.02942041));
+					points2.push("<div>bhc(경기대점)</div>");
+					lati = "37.298424961";
+					longi = "127.02942041";
+					
+	
+	var positions = new Array();
+	
+	for(var i=0; i<points.length;i++) {
+		positions[i] = new Array();
+		positions[i]['content'] = points2[i];
+		positions[i]['latlng'] = points[i];
+	}
+	
+	var container = document.getElementById('map');
+	var options = {
+		center: new daum.maps.LatLng(lati, longi),
+		level: 6
+	};
+
+	var map = new daum.maps.Map(container, options);
+	
+	// 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
+	var mapTypeControl = new daum.maps.MapTypeControl();
+
+	// 지도에 컨트롤을 추가해야 지도위에 표시됩니다
+	// daum.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위를 의미합니다
+	map.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
+
+	// 지도 확대 축소를 제어할 수 있는  줌 컨트롤을 생성합니다
+	var zoomControl = new daum.maps.ZoomControl();
+	map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
+	
+	
+	
+	// 지도를 재설정할 범위정보를 가지고 있을 LatLngBounds 객체를 생성합니다
+	var bounds = new daum.maps.LatLngBounds();    
+
+	var i, marker;
+	for (i = 0; i < points.length; i++) {
+	    // 배열의 좌표들이 잘 보이게 마커를 지도에 추가합니다
+	    marker =     new daum.maps.Marker({ position : points[i] });
+	    marker.setMap(map);
+	    
+	    // LatLngBounds 객체에 좌표를 추가합니다
+	    bounds.extend(points[i]);
+	}
+
+	function setBounds() {
+	    // LatLngBounds 객체에 추가된 좌표들을 기준으로 지도의 범위를 재설정합니다
+	    // 이때 지도의 중심좌표와 레벨이 변경될 수 있습니다
+	    map.setBounds(bounds);
+	}
+	
+	for (var i = 0; i < positions.length; i ++) {
+	    // 마커를 생성합니다
+	    var marker = new daum.maps.Marker({
+	        map: map, // 마커를 표시할 지도
+	        position: positions[i].latlng // 마커의 위치
+	    });
+
+	    // 마커에 표시할 인포윈도우를 생성합니다 
+	    var infowindow = new daum.maps.InfoWindow({
+	        content: positions[i].content // 인포윈도우에 표시할 내용
+	    });
+
+	    // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
+	    // 이벤트 리스너로는 클로저를 만들어 등록합니다 
+	    // for문에서 클로저를 만들어 주지 않으면 마지막 마커에만 이벤트가 등록됩니다
+	    daum.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
+	    daum.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
+	}
+
+	// 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
+	function makeOverListener(map, marker, infowindow) {
+	    return function() {
+	        infowindow.open(map, marker);
+	    };
+	}
+
+	// 인포윈도우를 닫는 클로저를 만드는 함수입니다 
+	function makeOutListener(infowindow) {
+	    return function() {
+	        infowindow.close();
+	    };
+	} */
+
+	var thisVal = "41";//경기도
+	$.ajax({
+		type: "get",
+		url: "http://openapi.nsdi.go.kr/nsdi/eios/service/rest/AdmService/admSiList.json",
+		data : {admCode : thisVal, authkey : $('#sigoon_key').val()},
+		async: false,
+		dataType: 'json',
+		success: function(data) {
+			var html = "<option value=''>선택</option>";
+			
+			for(var i=0;i<data.admVOList.admVOList.length;i++){
+				if ( data.admVOList.admVOList[i].admCode !='41281' && data.admVOList.admVOList[i].admCode !='41285'
+						&& data.admVOList.admVOList[i].admCode !='41287' 
+						&& data.admVOList.admVOList[i].admCode !='41135' && data.admVOList.admVOList[i].admCode !='41131'
+						&& data.admVOList.admVOList[i].admCode !='41133'
+						&& data.admVOList.admVOList[i].admCode !='41111' && data.admVOList.admVOList[i].admCode !='41113'
+						&& data.admVOList.admVOList[i].admCode !='41115' && data.admVOList.admVOList[i].admCode !='41117'
+						&& data.admVOList.admVOList[i].admCode !='41271' && data.admVOList.admVOList[i].admCode !='41273'
+						&& data.admVOList.admVOList[i].admCode !='41171' && data.admVOList.admVOList[i].admCode !='41173' 
+						&& data.admVOList.admVOList[i].admCode !='41461' && data.admVOList.admVOList[i].admCode !='41463'
+						&& data.admVOList.admVOList[i].admCode !='41465') {
+					html +="<option ";
+					if('수원시' == data.admVOList.admVOList[i].lowestAdmCodeNm) {
+						
+						html +="selected value='"+data.admVOList.admVOList[i].lowestAdmCodeNm+"'>";
+						
+						/* $.ajax({
+							type: "get",
+							url: "http://openapi.nsdi.go.kr/nsdi/eios/service/rest/AdmService/admDongList.json",
+							data : {admCode : data.admVOList.admVOList[i].admCode, authkey : $('#dong_key').val()},
+							async: false,
+							dataType: 'json',
+							success: function(data) {
+								var html = "<option value=\"\">선택</option>";
+								
+								for(var i=0;i<data.admVOList.admVOList.length;i++){ 
+
+									html +="<option ";
+									if('' == data.admVOList.admVOList[i].lowestAdmCodeNm) {
+										html +="selected ";
+									}
+									html +="value='"+data.admVOList.admVOList[i].lowestAdmCodeNm+"'>"+data.admVOList.admVOList[i].lowestAdmCodeNm+"</option>";
+								}
+								
+								$('#dongCode').html(html);
+							},
+							error: function(xhr, stat, err) {}
+						}); */
+						
+					} else {
+						html +="value='"+data.admVOList.admVOList[i].admCode+"'>";
+					}
+					html +=data.admVOList.admVOList[i].lowestAdmCodeNm+"</option>";
+				}
+			}
+			
+			$('#sigoonCode').html(html);
+		},
+		error: function(xhr, stat, err) {}
+	});
+	
+	 $(document).on("change","#sigoonCode",function(){ 
+		var thisVal = $(this).val();
+		var thisText = $("#sigoonCode option:selected").text();
+		$("#sigoonCode option:selected").val(thisText);
+		$("#sigoonCodeNum").val(thisVal);
+		
+		/* $.ajax({
+			type: "get",
+			url: "http://openapi.nsdi.go.kr/nsdi/eios/service/rest/AdmService/admDongList.json",
+			data : {admCode : thisVal, authkey : $('#dong_key').val()},
+			async: false,
+			dataType: 'json',
+			success: function(data) {
+				var html = "<option value=''>선택</option>";
+				
+				for(var i=0;i<data.admVOList.admVOList.length;i++){ 
+					html +="<option value='"+data.admVOList.admVOList[i].lowestAdmCodeNm+"'>"+data.admVOList.admVOList[i].lowestAdmCodeNm+"</option>";
+				}
+				
+				$('#dongCode').html(html);
+
+				
+			},
+			error: function(xhr, stat, err) {}
+		}); */
+	}); 
+	
+});
+
+function fn_select_noticeList(pageNo) {
+	document.gmoneyMapForm.pageIndex.value = pageNo;
+	document.gmoneyMapForm.submit();
+}
+
+</script>
+
+</head>
+<body id="mainpage">
+	<!-- <article id="quick_wrap" style="display: none;">
+	<h2><img src="/commons/main/images/site/quick_h2.png" alt="quick menu"></h2>
+	<div class="quick_in">
+		<ul>
+			<li><a href="javascript:goSubMenuPage('010000','010200');">큐브미술관<br>기획전시실</a></li>
+			<li><a href="javascript:goSubMenuPage('010000','010200');">갤러리 <br> 808</a></li>
+			<li><a href="javascript:goSubMenuPage('010000','010200');">반달<br>갤러리</a></li>
+			<li><a href="javascript:goSubMenuPage('010000','010200');">상설<br>전시실</a></li>
+			<li><a href="javascript:goSubMenuPage('010000','010200');">아트<br>마켓</a></li>
+		</ul>
+		<p class="go_top"><a href="#"><img src="/commons/main/images/site/top.png" alt="top 맨위로"></a></p>
+	</div>
+</article>
+<script>
+jQuery(document).scroll(function(){
+	var con = jQuery("#quick_wrap");
+	var position = jQuery(window).scrollTop();				
+
+	if(position > 650){ 
+		con.fadeIn(500); 
+	}
+	else if(position < 650){ 
+		con.fadeOut(500); 
+	}
+ });
+ jQuery(".go_top").click(function(){
+	 
+	con.fadeOut(1000); 
+	jQuery("html, body").animate({scrollTop: 0}, 1000);
+	con.css('display:none')
+ });
+</script> -->
+
+
+
+
+
+
+	<!-- 헤더 디자인 -->
+	<header class="header">
+
+		<article class="skiptoContent">
+			<h2 class="hidden_word">바로가기 메뉴</h2>
+			<div>
+				<strong>바로가기 메뉴</strong>
+				<span class="skip_item01"><a href="#cont_sbj" onclick="document.getElementById('cont_sbj').tabIndex = -1;document.getElementById('cont_sbj').focus();jQuery('#cont_sbj').addClass('selected');return false;">본문내용 바로가기</a></span>
+				<span class="skip_item02"><a href="#gnb-go" onclick="document.getElementById('gnb-go').tabIndex = -1;document.getElementById('gnb-go').focus();return false;">메인메뉴 바로가기</a></span>
+			</div>
+		</article>
+		<script>gnb_nav();</script>
+
+	
+	
+		<article class="top-nav">
+			<h2 class="hidden_word">주요안내</h2>
+			<div class="top-nav__box">
+			
+				<div class="top-nav__fav2">
+					<a href="#">HOME</a>&nbsp; 
+					<a href="javascript:goSubMenuPage('100000','100200');" class="type1">로그인</a>&nbsp; 
+						<a href="javascript:goSubMenuPage('100000','100300');" class="type2">회원가입</a>&nbsp; 
+					<!--
+					<span class="font-size-box">
+						<h3>FONT SIZE</h3>
+						<a href="#" class="font-size-item" onclick="js_font_plus();">
+							<img src="commons/images/global/font-plus.png" alt="폰트크기 키움" />
+						</a>
+						<span class="size-realtime s1">100%</span>
+						<span class="size-realtime s2">110%</span>
+						<span class="size-realtime s3">120%</span>
+						<span class="size-realtime s4">130%</span>
+						<span class="size-realtime s5">140%</span>
+						<a href="#" class="font-size-item" onclick="js_font_minus();">
+							<img src="commons/images/global/font-minus.png" alt="폰트크기 줄임" />
+						</a>
+					</span> -->
+
+				</div>
+				
+			</div><!--// top-nav__box -->
+
+		</article>
+
+
+		<div class="sitemap-go-wrap">
+			<div class="sitemap-go-wrap__in">
+				<a href="#"><img src="/commons/main/images/global/sitemap-go.png" alt="사이트맵가기"></a>
+			</div>
+		</div>
+		
+		<div class="header__wrap">
+			<div class="header__wrap__h1">
+				<h1>
+					<a href="/main/mainPage.do" class="title-item"><img src="/commons/main/images/global/title.png" alt="경기지역화폐"></a>
+				</h1>
+			</div>
+			
+			
+			
+	
+	
+			<div class="gnb nav-top five_type" id="gnb-go">
+				<h2 class="hidden_word">메인메뉴</h2>
+				<div class="gnb__in">
+					<ul class="gnb-ul float_wrap nav-menu">
+						<li class="gnb-menu nav-item t_menu p_depth1">
+									<a href="#LINK" onclick="javascript:goMenuPage('010000')" class="t_item p_dp1"> 경기지역화폐</a>
+										<div class="sub-nav m_t_wrap m_depth1">
+										<div class="m_t_box sub-nav__box">
+											<ul class="sub-nav__box__ul m_t_group float_wrap">
+												<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('010000','010100')" class="link_item"> 경기지역화폐 소개</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('010000','010200')" class="link_item"> 경기지역화폐 종류</a>
+															<div class="gnb-thrd-menu">
+															<a href="#LINK" onclick="javascript:goSubMenuPage_3dep('010000','010200','010203')" class="link_item"> 경기지역화폐 종류</a>
+																		<a href="#LINK" onclick="javascript:goSubMenuPage_3dep('010000','010200','010201')" class="link_item"> 일반발행</a>
+																		<a href="#LINK" onclick="javascript:goSubMenuPage_3dep('010000','010200','010202')" class="link_item"> 정책발행</a>
+																		</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('010000','010300')" class="link_item"> 위/변조 확인방법</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('010000','010500')" class="link_item"> 구입안내</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('010000','010400')" class="link_item"> 이용안내</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('010000','010600')" class="link_item"> 이벤트</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													</ul>
+										</div>
+									</div>
+											
+								</li>
+							<li class="gnb-menu nav-item t_menu p_depth2">
+									<a href="#LINK" onclick="javascript:goMenuPage('020000')" class="t_item p_dp2"> 가맹점 안내</a>
+										<div class="sub-nav m_t_wrap m_depth2">
+										<div class="m_t_box sub-nav__box">
+											<ul class="sub-nav__box__ul m_t_group float_wrap">
+												<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('020000','020100')" class="link_item"> 가맹점 등록 안내</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('020000','020200')" class="link_item"> 가맹점 지원</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('020000','020300')" class="link_item"> 환전절차</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													</ul>
+										</div>
+									</div>
+											
+								</li>
+							<li class="gnb-menu nav-item t_menu p_depth3">
+									<a href="#LINK" onclick="javascript:goMenuPage('040000')" class="t_item p_dp3"> 가맹점찾기</a>
+										<div class="sub-nav m_t_wrap m_depth3">
+										<div class="m_t_box sub-nav__box">
+											<ul class="sub-nav__box__ul m_t_group float_wrap">
+												<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('040000','040100')" class="link_item"> 가맹점찾기</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													</ul>
+										</div>
+									</div>
+											
+								</li>
+							<li class="gnb-menu nav-item t_menu p_depth4">
+									<a href="#LINK" onclick="javascript:goMenuPage('030000')" class="t_item p_dp4"> 소통공간</a>
+										<div class="sub-nav m_t_wrap m_depth4">
+										<div class="m_t_box sub-nav__box">
+											<ul class="sub-nav__box__ul m_t_group float_wrap">
+												<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('030000','030100')" class="link_item"> 공지사항</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('030000','030200')" class="link_item"> 자주묻는질문</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('030000','030500')" class="link_item"> 문의안내</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													</ul>
+										</div>
+									</div>
+											
+								</li>
+							<li class="gnb-menu nav-item t_menu p_depth5">
+									<a href="#LINK" onclick="javascript:goMenuPage('050000')" class="t_item p_dp5"> 홍보공간</a>
+										<div class="sub-nav m_t_wrap m_depth5">
+										<div class="m_t_box sub-nav__box">
+											<ul class="sub-nav__box__ul m_t_group float_wrap">
+												<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('050000','050200')" class="link_item"> 홍보동영상</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('050000','050300')" class="link_item"> 행사갤러리</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													<li class="sub-nav__box__list m_depth">
+															<a href="#LINK" onclick="javascript:goSubMenuPage('050000','050100')" class="link_item"> 언론보도</a>
+															<div class="gnb-thrd-menu">
+															</div>
+														</li>
+													</ul>
+										</div>
+									</div>
+											
+								</li>
+							</ul>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+			//<![CDATA[
+
+			//]]>
+			</script>
+			<script>
+				gnb_type(); //메뉴 숫자 클래스 삽입
+			//	sizeComp(); //좌우 패딩형 사이즈 조절
+			</script>
+
+		</div>
+
+				
+		
+		<!-- 모바일 메뉴 -->
+		<div class="mobile_top_nav">
+			<div class="mobile_icon">
+				<a href="#gnb_nav_mobile" class="m_open_btn mobile_on_off"><img src="/commons/main/images/mobile/menu_open.png" alt="메뉴보기"></a>
+				<!-- <a href="#" class="m_s_btn"><img src="/commons/main/images/mobile/menu_search.png" alt="검색" /></a> -->
+			</div>
+			<div class="mobile_top_nav__in">
+				<nav id="gnb_nav_mobile">
+					<h2 class="hidden_word">menu</h2>
+					<ul class="gnb-ul float_wrap nav-menu">
+					<li class="gnb-menu nav-item taphover">
+							<a href="#" class="t_item">
+									경기지역화폐</a>
+							<div class="sub-nav m_t_wrap">
+								<div class="sub-nav__box m_t_box">
+									<ul class="sub-nav__box__ul">
+										<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('010000','010100')">
+															<span>경기지역화폐 소개</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('010000','010200')">
+															<span>경기지역화폐 종류</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															<a href="#LINK" onclick="javascript:goSubMenuPage_3dep('010000','010200','010203')" class="link_item"> 경기지역화폐 종류</a>
+																		<a href="#LINK" onclick="javascript:goSubMenuPage_3dep('010000','010200','010201')" class="link_item"> 일반발행</a>
+																		<a href="#LINK" onclick="javascript:goSubMenuPage_3dep('010000','010200','010202')" class="link_item"> 정책발행</a>
+																		</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('010000','010300')">
+															<span>위/변조 확인방법</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('010000','010500')">
+															<span>구입안내</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('010000','010400')">
+															<span>이용안내</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('010000','010600')">
+															<span>이벤트</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											</ul>
+								</div>
+							</div>
+						</li>
+						<li class="gnb-menu nav-item taphover">
+							<a href="#" class="t_item">
+									가맹점 안내</a>
+							<div class="sub-nav m_t_wrap">
+								<div class="sub-nav__box m_t_box">
+									<ul class="sub-nav__box__ul">
+										<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('020000','020100')">
+															<span>가맹점 등록 안내</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('020000','020200')">
+															<span>가맹점 지원</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('020000','020300')">
+															<span>환전절차</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											</ul>
+								</div>
+							</div>
+						</li>
+						<li class="gnb-menu nav-item taphover">
+							<a href="#" class="t_item">
+									가맹점찾기</a>
+							<div class="sub-nav m_t_wrap">
+								<div class="sub-nav__box m_t_box">
+									<ul class="sub-nav__box__ul">
+										<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('040000','040100')">
+															<span>가맹점찾기</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											</ul>
+								</div>
+							</div>
+						</li>
+						<li class="gnb-menu nav-item taphover">
+							<a href="#" class="t_item">
+									소통공간</a>
+							<div class="sub-nav m_t_wrap">
+								<div class="sub-nav__box m_t_box">
+									<ul class="sub-nav__box__ul">
+										<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('030000','030100')">
+															<span>공지사항</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('030000','030200')">
+															<span>자주묻는질문</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('030000','030500')">
+															<span>문의안내</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											</ul>
+								</div>
+							</div>
+						</li>
+						<li class="gnb-menu nav-item taphover">
+							<a href="#" class="t_item">
+									홍보공간</a>
+							<div class="sub-nav m_t_wrap">
+								<div class="sub-nav__box m_t_box">
+									<ul class="sub-nav__box__ul">
+										<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('050000','050200')">
+															<span>홍보동영상</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('050000','050300')">
+															<span>행사갤러리</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											<li class="sub-nav__box__list float_wrap">
+													<a href="#" onclick="javascript:goSubMenuPage('050000','050100')">
+															<span>언론보도</span>
+														</a>
+													<div class="gnb-thrd-menu">
+															</div>
+												</li>
+											</ul>
+								</div>
+							</div>
+						</li>
+						</ul>
+				</nav>
+			</div>
+		</div>
+		
+		
+		
+		<span class="mobile-close mobile_on_off"><a href="#">닫기</a></span>
+		<script>
+
+
+			mobile_menu();
+
+
+			function mobile_tc(){
+			$('#gnb_nav_mobile li.taphover').on("touchstart", function (e) {
+			    "use strict"; //satisfy the code inspectors
+			    var link = $(this); //preselect the link
+			    if (link.hasClass('selected')) {
+			        return true;
+			    } else {
+			        link.addClass("selected");
+			        $('#gnb_nav_mobile li.taphover').not(this).removeClass("selected");
+			        e.preventDefault();
+			        return false; //extra, and to make sure the function has consistent return points
+			    }
+			});
+			}
+
+
+			(function(window, document, $) {
+
+				})(window, document, jQuery);
+
+				if(navigator.userAgent.match(/Android|Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/)){
+
+				//   mobile_tc(); //모바일(스마트폰+태블릿)일 때 실행 될 스크립트
+
+				}
+
+
+				function mainGnbMobile() {
+						var oldIndex = 0;
+						jQuery('.mobile_top_nav li.gnb-menu').click(function() {
+							var thisIndex = jQuery('.mobile_top_nav li.gnb-menu').index(this);
+
+							jQuery('.mobile_top_nav div.sub-nav').removeClass('selected');
+							jQuery('.mobile_top_nav li.gnb-menu').removeClass('selected');
+							jQuery('.mobile_top_nav li.gnb-menu').removeClass('on');
+
+							jQuery('.mobile_top_nav div.sub-nav').eq(thisIndex).addClass('selected');
+							jQuery('.mobile_top_nav li.gnb-menu').eq(thisIndex).addClass('selected');
+
+							//return false;
+						});
+
+
+				};
+
+				mainGnbMobile();
+
+		</script>
+		<!-- p class="resol">
+		</p-->
+		<script>
+		/*
+		$(document).ready(function() {
+			var winHigh = $(window).outerHeight();
+			var winWidth = $(window).width();
+			jQuery('.resol').text('width : ' + winWidth + ', ' + 'height : ' + winHigh);
+
+		});
+		$(window).resize(function() {
+			var winHigh = $(window).outerHeight();
+			var winWidth = $(window).width();
+			jQuery('.resol').text('width : ' + winWidth + ', ' + 'height : ' + winHigh);
+		});
+		*/
+		</script>
+	</header>
+	<!--// 헤더 디자인 -->
+	
+	
+	
+	
+		
+		
+	
+	
+		 
+	<!-- 
+			<a href="javascript:goSubMenuPage('100000','100200');" class="icon_login">로그인</a></li>
+			
+			<a href="javascript:goSubMenuPage_Context('100000','100300','main');" class="icon_bul1">회원가입</a></li>
+			
+			<a href="https://sso.egbiz.or.kr/gsbc/member/NR_member.do?siteId=SITE0000000183&mbrId=&dspId" target="_blank" class="icon_bul1">
+				회원가입
+			</a>
+
+			<div class="select_concept type01">
+				<span><a href="#">LANGUAGE</a></span>
+				<ul>
+					<li><a href="/main/mainPage.do">KOREAN</a></li>
+					<li><a href="/eng/mainPage.do">ENGLISH</a></li>
+					<li><a href="/china/mainPage.do">CHINESES</a></li>
+				</ul>
+			</div>
+			
+			
+		<div class="main_search_box">
+			<div class="main_search_box_in">
+				<form name="searchForm" method="post" action="/main/cop/smt/fab/searchFabricList.do" onsubmit="return checkSearch(this);" >
+					<input type="hidden" name="menuNo" value="030000"/>
+					<input type="hidden" name="subMenuNo" value="030300"/>
+					<input type="hidden" name="thirdMenuNo" />
+					
+					<input type="hidden" name="searchCondition" value="1"/>
+					<label for="main_search2" class="hidden_word">검색어 입력</label>
+					
+					<input type="search" name="searchKeyword" id="searchKeyword" placeholder="SEARCH" class="m_se_btn" value=""/>
+					<input type="image" src="/commons/main/images/site/d_search_btn.jpg" alt="검색" />
+				</form>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			function checkSearch(form) {
+				if (form.searchKeyword.value == "") {
+					alert("검색어를 입력해주세요.");
+					form.searchKeyword.focus();
+					return false;
+				}
+				
+				
+				return true;
+			}
+			function actionLogout() {
+				document.selectOne.action = "/main/uat/uia/actionLogout.do";
+				//document.selectOne.target = "_top";
+				document.selectOne.submit();
+				//top.document.location.href = "/main/j_spring_security_logout";
+			}
+			/*
+			 * 회원정보
+			 */
+			function fnSelectUser() {
+				document.Form.action = "/uss/umt/MberSelectUpdtView.do";
+				document.Form.submit();
+			}
+		</script>
+		
+		
+		
+		
+	 -->
+	
+	
+	
+		
+	
+	
+		
+		<form name="ssoMemberForm" id="ssoMemberForm">
+			<input type="hidden" name="siteId" id="siteId" value="SITE0000000183">
+			<input type="hidden" name="mbrId" value="">
+			<input type="hidden" name="dspId" value="">
+		</form>
+		<form name="menuListForm" action="/sym/mnu/mpm/MenuListSelect.do" method="post">
+			<input type="hidden" id="menuNo" name="menuNo" value="040000">
+			<input type="hidden" id="subMenuNo" name="subMenuNo" value="040100">
+			<input type="hidden" id="thirdMenuNo" name="thirdMenuNo" value="">
+			<input type="hidden" id="link" name="link" value="">
+			<input type="hidden" id="conText" name="conText" value="/main">
+			<input type="hidden" id="tempParam1" name="tempParam1" value="">
+			<input type="hidden" id="spring-security-redirect" name="spring-security-redirect" value="/main/mainPage.do">
+			<div style="width: 0px; height: 0px;">
+				<input type="hidden" name="tmp_menuNm" value="010000|0|경기지역화폐||||MENUT04||">
+				<input type="hidden" name="tmp_menuNm" value="010100|010000|경기지역화폐 소개|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="010203|010200|경기지역화폐 종류|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="020100|020000|가맹점 등록 안내|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="030100|030000|공지사항|||/cop/bbs/selectBoardList.do?bbsId=Notice_main|MENUT01||">
+				<input type="hidden" name="tmp_menuNm" value="050200|050000|홍보동영상|||/cop/bbs/selectBoardList.do?bbsId=hbmov_main|MENUT01||">
+				<input type="hidden" name="tmp_menuNm" value="010200|010000|경기지역화폐 종류||||MENUT04||">
+				<input type="hidden" name="tmp_menuNm" value="010201|010200|일반발행|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="020000|0|가맹점 안내||||MENUT04||">
+				<input type="hidden" name="tmp_menuNm" value="020200|020000|가맹점 지원|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="030200|030000|자주묻는질문|||/uss/olp/faq/FaqListInqire.do?bbsId=FAQ|MENUT01||">
+				<input type="hidden" name="tmp_menuNm" value="040100|040000|가맹점찾기|||/gmoney/searchFranchisee.do|MENUT01||">
+				<input type="hidden" name="tmp_menuNm" value="050300|050000|행사갤러리|||/cop/bbs/selectBoardList.do?bbsId=hsgall_main|MENUT01||">
+				<input type="hidden" name="tmp_menuNm" value="010202|010200|정책발행|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="010300|010000|위/변조 확인방법|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="020300|020000|환전절차|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="040000|0|가맹점찾기||||MENUT04||">
+				<input type="hidden" name="tmp_menuNm" value="050100|050000|언론보도|||/cop/bbs/selectBoardList.do?bbsId=bodo_main|MENUT01||">
+				<input type="hidden" name="tmp_menuNm" value="010500|010000|구입안내|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="030000|0|소통공간||||MENUT04||">
+				<input type="hidden" name="tmp_menuNm" value="010400|010000|이용안내|||/PageContent.do|MENUT02||">
+				<input type="hidden" name="tmp_menuNm" value="030500|030000|문의안내|||/PageContent.do|MENUT02|임시페이지|">
+				<input type="hidden" name="tmp_menuNm" value="050000|0|홍보공간||||MENUT04||">
+				<input type="hidden" name="tmp_menuNm" value="010600|010000|이벤트|||/cop/bbs/selectBoardList.do?bbsId=Gevent_main|MENUT01||">
+				</div>
+		</form>
+		
+<script src="/commons/cmm/js/connectionLog.js"></script>
+<!-- //header --><!-- visual -->
+	<div class="visua_wrap">
+		<div class="visual">
+			<!-- <img src="/commons/main/images/global/sub_visual.jpg" alt="ë ë¹ ë¥´ê³  ê°í¸íê³  ì íí ì±ë¶êµ¬ ì ì¶ì° ê·¹ë³µ ì¨ë¼ì¸íµí©ì ë³´ ìì¤í" /> -->
+		</div>
+	</div>
+	<!--// visual --><div class="sub-page-container wrap float-wrap">
+		<div class="sub-page-container__wrap float_wrap">
+		
+		<script type="text/javascript" src="/commons/cmm/js/MainMenu.js"></script>
+<script type="text/javascript">
+
+	/* ********************************************************
+     * 상세내역조회 함수
+     ******************************************************** */
+    function fn_MovePage(nodeNum) {
+	    var nodeValues = treeNodes[nodeNum].split("|");
+	    //parent.main_right.location.href = nodeValues[5];
+	    document.menuListForm.action = "/main/" + nodeValues[5];
+	    //alert(document.menuListForm.action);
+	    document.menuListForm.submit();
+    }
+    function fn_Insert_NewsApply() {
+/* 	    if (document.newsApply.newsApplyEmail2.value == "") {
+		    document.newsApply.newsApplyEmail.value = document.newsApply.newsApplyEmail1.value + "@" + document.newsApply.newsApplyEmail3.value;
+	    } else {
+		    document.newsApply.newsApplyEmail.value = document.newsApply.newsApplyEmail1.value + "@" + document.newsApply.newsApplyEmail2.value;
+	    } */
+	    if (document.newsApply.newsApplyName.value == "" || document.newsApply.newsApplyEmail.value == "") {
+		    alert("이름, 이메일을 입력 해주세요.");
+		    return;
+	    }
+	    if (confirm('뉴스레터 신청을 하시겠습니까?')) {
+		    chkAjaxLoding(window.document, "y");
+		    var ajaxUrl = "/uss/olh/nwa/ajaxInsertNewsApplyArticle.do";
+		    $.ajax({
+		        type : "POST",
+		        url : ajaxUrl,
+		        data : $('#newsApply').serialize(),
+		        dataType : "json",
+		        success : function(e) {
+			        if (e.resultStatus == 'S') {
+				        alert(e.resultMsg);
+				        document.newsApply.newsApplyName.value = "";
+				        document.newsApply.newsApplyEmail.value = "";
+			        } else {
+				        alert(e.resultMsg);
+			        }
+			        chkAjaxLoding(window.document, "n");
+		        },
+		        error : function(e) {
+			        chkAjaxLoding(window.document, "n");
+			        alert(e.resultMsg);
+		        }
+		    });
+
+	    }
+    }
+
+</script>
+
+
+
+<!-- 
+
+	<div class="sub-top-wrap">
+		<div class="sub-top-wrap__in">
+			<h2>알림마당</h2>
+
+			<nav class="lnb-bar">
+				<ul class="lnb-bar-ul float_wrap">
+					<li class="lnb-menu on"><a href="#">공지사항</a></li> 
+					<li class="lnb-menu"><a href="#">공유마당</a></li>
+					<li class="lnb-menu"><a href="#">멘토멘티</a></li>
+				</ul>
+				<script>
+					
+				</script>
+
+			</nav>
+		</div>
+	</div>
+
+
+
+ -->
+
+
+<nav id="sidebar" class="sidebar side_">
+	<h2 id="menu_sbj" class="sidebar__h2 short-type"><em>가맹점찾기</em><a href="#">메뉴열기</a></h2>
+	<div class="sidebar__wrap side_in_wrap lnb-bar side_">
+
+
+		<ul class="side-list side_ul lnb-bar-ul float_wrap">
+			<script type="text/javascript">
+				var Tree = new Array;
+                var nodeValues;
+                var c1Dep;
+                var leftStartMenuValue = document.getElementById("menuNo").value;
+                if (leftStartMenuValue == null || leftStartMenuValue == "" || leftStartMenuValue == "null")
+	                leftStartMenuValue = '010000';
+                if (document.menuListForm.tmp_menuNm != null) {
+	                for ( var j = 0; j < document.menuListForm.tmp_menuNm.length; j++) {
+		                Tree[j] = document.menuListForm.tmp_menuNm[j].value;
+		                nodeValues = document.menuListForm.tmp_menuNm[j].value.split("|");
+		                if (leftStartMenuValue == nodeValues[0]) {
+			                check1Dep = "&nbsp;&gt;&nbsp;" + nodeValues[2];
+			                c1Dep = nodeValues[2];
+		                }
+
+	                }
+                }
+                jQuery('#menu_sbj').html("<em>" + c1Dep + "</em>" + "<a href=\"#\">메뉴열기</a>");
+                createTree(Tree, true, leftStartMenuValue);
+			</script><li class="2dep_040100 lnb-menu side-list__li on"><span><a href="javascript:goSubMenuPage('040000','040100');">가맹점찾기</a></span></li>
+		</ul>
+	</div>
+	<!--//side_in_wrap -->
+				
+
+</nav>
+<!--//sidebar -->
+
+	<script>
+   		jQuery(document).ready(function() {
+			side_open();	// 메뉴 클릭시 세부메뉴가 있을경우 펼침으로 동작.
+			//side_open2(); // 메뉴 클릭시 메뉴 바로이동을 원할 경우 활성화함. side_open(); 는 비활성화로.
+			mobile_ver_menu();
+			//lnbBar();
+			menuLight();
+		});
+		function sizeLength(){
+			var sLength = $('.sidebar__h2 em').html();
+
+			if (sLength.length > 8) {
+				$('.sidebar__h2').addClass('long-type')
+			} else {
+				$('.sidebar__h2').addClass('short-type')
+			}
+			return false
+		}
+		sizeLength();
+	</script>
+<section class="sub-contents">
+			<!-- //subject -->
+			<script type="text/javascript" src="/commons/cmm/js/SubMenu.js"></script>
+<script type="text/javascript">
+	var subtitle = "";
+	var menuSubject = "";
+		var subtitle2 = "";
+
+		function getNeviTitle() {
+			var nodeValues;
+			var leftStartMenuValue = document.getElementById("menuNo").value;
+			var leftStartSubMenuValue = document.getElementById("subMenuNo").value;
+			var leftStartThirdMenuNoValue = document.getElementById("thirdMenuNo").value;
+			//var neviValue = "";
+			if (leftStartMenuValue == null) {
+				leftStartMenuValue = "010000";
+			}
+			if (document.menuListForm.tmp_menuNm != null) {
+
+				var check1Dep = "";
+				var check2Dep = "";
+				var check3Dep = "";
+
+				var subtitleTmp1 = "";
+				var menuSubjectTmp1 = "";
+				var subtitleTmp2 = "";
+				var menuSubjectTmp2 = "";
+				var subtitleTmp3 = "";
+				var menuSubjectTmp3 = "";
+
+				for ( var i = 0; i < document.menuListForm.tmp_menuNm.length; i++) {
+					nodeValues = document.menuListForm.tmp_menuNm[i].value.split("|");
+					if (leftStartMenuValue == nodeValues[0]) {
+						check1Dep = "<span>" + nodeValues[2] +  "</span>";
+						subtitleTmp1 = nodeValues[2];
+						menuSubjectTmp1 = nodeValues[7];
+					}
+					if (leftStartSubMenuValue == nodeValues[0]) {
+						if(leftStartSubMenuValue != '040100') {
+							if (leftStartThirdMenuNoValue == "") {
+								check2Dep = "<span>" + nodeValues[2] + "</span>";
+							} else {
+								check2Dep = "<span>" + nodeValues[2] + "</span>";
+							}
+							subtitleTmp2 = nodeValues[2];
+							menuSubjectTmp2 = nodeValues[7];
+						}
+					}
+					if (leftStartThirdMenuNoValue == nodeValues[0]) {
+						check3Dep = "<span>" + nodeValues[2] + "</span>";
+						subtitle2 = "<span>" + nodeValues[2] + "</span>";
+						subtitleTmp3 = nodeValues[2];
+						menuSubjectTmp3 = nodeValues[7];
+					}
+				}
+				if (leftStartThirdMenuNoValue == "") {
+					subtitle = subtitleTmp2;
+					menuSubject = menuSubjectTmp2;
+				}else{
+					subtitle = subtitleTmp3;
+					menuSubject = menuSubjectTmp3;
+				}
+				if (leftStartSubMenuValue == "") {
+					subtitle = subtitleTmp1;
+					menuSubject = menuSubjectTmp1;
+				}
+				document.write(check1Dep.replace("<span> </span>","") + check2Dep + check3Dep);
+
+			}
+			jQuery(".sbj_line").addClass("d_"+leftStartMenuValue);
+			//return neviValue;
+		}
+		function copy_trackback(trb) {
+			var IE=(document.all)?true:false;
+			if (IE) {
+				if(confirm("이 글의 주소를 복사하시겠습니까?"))
+					window.clipboardData.setData("Text", trb);
+					alert("복사되었습니다. Ctrl+V로 붙여넣기하세요.");
+			} else {
+				temp = prompt("이 글의 주소입니다. Ctrl+C를 눌러 복사하세요", trb);
+			}	
+		}
+</script>
+
+<!-- 제목줄 -->
+<article class="sub-contents__top">
+		<!-- 컨텐츠 제목, 로케이션 -->
+		<div class="location-box">
+			<p class="location location-box__cont float_wrap">
+				<span>
+					<a href="/" class="loc-home">
+					HOME
+					</a>
+				</span>
+				<script type="text/javascript">
+					getNeviTitle();
+				</script><span>가맹점찾기</span>
+			</p>
+		</div>
+		<h2 id="cont_sbj" class="sub-tit loc_tit"></h2>
+<form name="sbjForm">
+			<input type="hidden" name="urlTrackBack" id="urlTrackBack" value="/main/gmoney/searchFranchisee.do?menuNo=null&amp;subMenuNo=null&amp;thirdMenuNo=null">
+			<input type="hidden" name="urlTrackBack2" id="urlTrackBack2" value="/main/gmoney/searchFranchisee.do?menuNo=null%26subMenuNo=null%26thirdMenuNo=null">
+		</form>
+<!-- 		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('#urlTrackBackGo').show();
+			});
+		</script> -->
+<small id="menuSubject" class="description"></small>
+	<script type="text/javascript">
+		jQuery('#cont_sbj').text(subtitle);
+		jQuery('#menuSubject').text(menuSubject);
+		//jQuery('.visual_in h2').text(subtitle);
+	</script>
+	
+	<script>
+		function fn_get_twitter(title){
+			var url = "https://twitter.com/intent/tweet?text="+encodeURI(title)+"&amp;url=http://gtc.or.kr"+jQuery('#urlTrackBack2').val();
+			window.open(url, "twitterPopup", "width=800, height=450, top=0, left=0");
+		}
+		function fn_get_facebook(){
+			var url = "https://www.facebook.com/sharer/sharer.php?u=http://gtc.or.kr"+jQuery('#urlTrackBack2').val();
+			window.open(url, "facebookPopup", "width=800, height=450, top=0, left=0");
+		}
+		function fn_get_url(){
+			copy_trackback(location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '')+jQuery('#urlTrackBack').val());
+		}
+		
+	</script>
+</article>
+<!--// 제목줄 --><div class="cont_in">
+				<h3 class="h3_bul">					
+					<small></small>					
+				</h3>
+				<p class="col_org" style="font-size:14px;">
+				<a href="https://www.pyeongtaek.go.kr/pyeongtaek/bbs/view.do?mId=0101070000&amp;bIdx=201328&amp;ptIdx=13" target="_blank">※ 평택시 청년기본소득(카드형) 가맹점은 시청홈페이지를 참고바랍니다. 바로가기</a>
+				</p><br>
+				<p class="col_org">
+				현재 접속량이 많아 연결이 늦어지고 있습니다.<br>
+양해부탁드립니다.<br>
+가맹점 찾기는 경기지역화폐 스마트폰 앱에서도 확인이 가능합니다.
+				</p><br>
+				<!-- ++++++++++++++++++++++++++++++++ content start ++++++++++++++++++++++++++++++++++ -->				
+				<form name="gmoneyMapForm" action="/main/gmoney/searchFranchisee.do?menuNo=040000&amp;subMenuNo=040100" method="post">
+				<!-- nsdi apikey 시작 -->
+				<input type="hidden" id="sido_key" value="12685d425f1af0872d756c">
+				<input type="hidden" id="sigoon_key" value="b0888bae39fbd0463a9252"> 
+				<input type="hidden" id="dong_key" value="91afccaa8d7f499151ee3b"> <!--  아직 key 인증을 받지 못함... -->
+				<!-- nsdi apikey 종료 -->
+				<input type="hidden" name="apiKey" value="E4A59B05-0CF4-3654-BD0C-A169F70CCB34">
+				<input type="hidden" id="sido_key" value="12685d425f1af0872d756c">
+				<input name="pageIndex" type="hidden" value="445">
+				<div class="design-search-box">
+
+					<div class="design-search-box__content float_wrap">
+						<div class="design-search-box__content__lay1">
+							<label for="d_search_1">시 · 군</label>
+							<div class="select_design in_length100">
+								<select title="시 · 군 선택" id="sigoonCode" name="sigoonCode"><option value="">선택</option><option value="41820">가평군</option><option value="41280">고양시</option><option value="41290">과천시</option><option value="41210">광명시</option><option value="41610">광주시</option><option value="41310">구리시</option><option value="41410">군포시</option><option value="41570">김포시</option><option value="41360">남양주시</option><option value="41250">동두천시</option><option value="41190">부천시</option><option value="41130">성남시</option><option selected="" value="수원시">수원시</option><option value="41390">시흥시</option><option value="41270">안산시</option><option value="41550">안성시</option><option value="41170">안양시</option><option value="41630">양주시</option><option value="41830">양평군</option><option value="41670">여주시</option><option value="41800">연천군</option><option value="41370">오산시</option><option value="41460">용인시</option><option value="41430">의왕시</option><option value="41150">의정부시</option><option value="41500">이천시</option><option value="41480">파주시</option><option value="41220">평택시</option><option value="41650">포천시</option><option value="41450">하남시</option><option value="41590">화성시</option></select>
+							</div>
+						</div>
+						<!-- <div class="design-search-box__content__lay2">
+							<label for="d_search_2">읍 · 면 · 동</label>
+							<div class="select_design in_length120">
+								<select title="읍·면·동 선택" id="dongCode" name="dongCode">
+									<option value="">선택</option>
+								</select>
+							</div>
+						</div> -->
+						<div class="design-search-box__content__lay3">
+							<label for="d_search_3">상호명</label>
+							<input title="검색어 입력" class="in_s_box" id="nameCode" name="nameCode" onkeypress="press(event);" size="35" maxlength="35" value="">
+							<a class="btn_search2" href="javascript:getMap();">검색</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="jido-map-wrap" id="map" style="width:100%;height:480px;">
+				</div> -->
+				<p class="col_org">
+				※본 화면의 정보는 가맹점 폐업 또는 업종변경, 가맹점 정보변경 등으로 현재 정보와 다를 수 있습니다.<br>
+자세한 내용은 각 시·군의 담당부서로 문의하시기 바랍니다.
+				</p>
+				
+				
+				<div class="tb_type2 all_center mgn_t10">
+					<table>
+						<caption>가맹점 리스트</caption>
+						<colgroup>
+							<col>
+							<col style="width: 45%;">
+							<col style="width: 20%;">
+							<col>
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">상호명</th>
+								<th scope="col">주소</th>
+								<th scope="col">업종</th>
+								<th scope="col">전화번호</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+											<td>로즈모텔</td>
+											<td>경기 수원시 팔달구 정조로795번길 15-3 (팔달로2가)</td>
+											<td>숙박업 - 여관/기타숙박업</td>
+											<td>031-253-1812</td>
+										</tr>
+									<tr>
+											<td>김영숙칼국수</td>
+											<td>경기 수원시 영통구 매영로159번길 45 105호 106호 (원천동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-225-2300</td>
+										</tr>
+									<tr>
+											<td>이  솜씨 아크릴</td>
+											<td>경기 수원시 권선구 세권로 130 102-103호(세류동)</td>
+											<td>신변잡화 - 기타잡화</td>
+											<td>031-232-6100</td>
+										</tr>
+									<tr>
+											<td>락빈칼국수</td>
+											<td>경기 수원시 영통구 청명남로12번길 5-22 (영통동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-273-5759</td>
+										</tr>
+									<tr>
+											<td>신세계유통</td>
+											<td>경기 수원시 장안구 파장천로26번길 54 1동 2층 204호 (파장동,무진아파트)</td>
+											<td>유통업 영리 - 기타유통업</td>
+											<td>031-271-5376</td>
+										</tr>
+									<tr>
+											<td>프랑세즈</td>
+											<td>경기 수원시 장안구 조원로54번길 28 1층 (조원동)</td>
+											<td>음료식품 - 제과점</td>
+											<td>031-243-0039</td>
+										</tr>
+									<tr>
+											<td>엘지세탁</td>
+											<td>경기 수원시 권선구 금곡로73번길 71 상가동 2층 207호 (금곡동,금곡엘지아파트)</td>
+											<td>수리서비스 - 세탁소</td>
+											<td>031-297-0709</td>
+										</tr>
+									<tr>
+											<td>하늘공연기획</td>
+											<td>경기 수원시 권선구 덕영대로1207번길 46-15 (권선동)</td>
+											<td>회원제형태 - 기타4</td>
+											<td>031-7750-2274</td>
+										</tr>
+									<tr>
+											<td>GS25수원은혜점</td>
+											<td>경기 수원시 권선구 세권로 304 1층(권선동,1286-2)</td>
+											<td>유통업 영리 - 편 의 점</td>
+											<td></td>
+										</tr>
+									<tr>
+											<td>미성서적</td>
+											<td>경기 수원시 팔달구 동말로 95 2층 (화서동,수원빌딩)</td>
+											<td>회원제형태 - 서적</td>
+											<td>031-241-0413</td>
+										</tr>
+									<tr>
+											<td>옥시주단</td>
+											<td>경기 수원시 팔달구 중부대로 187 1층 (우만동)</td>
+											<td>의류 - 맞춤복점</td>
+											<td>031-215-0120</td>
+										</tr>
+									<tr>
+											<td>머리해여</td>
+											<td>경기 수원시 권선구 노림로 8 1층 (호매실동)</td>
+											<td>보건위생 - 미용원</td>
+											<td>031-294-3233</td>
+										</tr>
+									<tr>
+											<td>착한고기</td>
+											<td>경기 수원시 영통구 대학로 14 (이의동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-217-9234</td>
+										</tr>
+									<tr>
+											<td>노무법인승리</td>
+											<td>경기 수원시 팔달구 매산로 58 (매산로2가)</td>
+											<td>용역 서비스 - 법률회계서비스(법인)</td>
+											<td>031-245-6114</td>
+										</tr>
+									<tr>
+											<td>매산건어물</td>
+											<td>경기 수원시 팔달구 매산로20번길 12 1층 (매산로1가)</td>
+											<td>음료식품 - 농•축•수산품</td>
+											<td>031-111-1111</td>
+										</tr>
+									<tr>
+											<td>불닭발동대문엽기떡볶이 수원역점</td>
+											<td>경기 수원시 팔달구 향교로 15 지하1층 (매산로1가)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-244-8592</td>
+										</tr>
+									<tr>
+											<td>정아트 취미실용미술학원</td>
+											<td>경기 수원시 영통구 봉영로 1767 602동 2호 (영통동,한솔프라자)</td>
+											<td>학원 - 예•체능계학원</td>
+											<td>031-563-1711</td>
+										</tr>
+									<tr>
+											<td>마돈나/마을을가꾸는돈가스나들터사회적협</td>
+											<td>경기 수원시 장안구 경수대로 893 B-202수원종합운동장 (조원동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-241-9855</td>
+										</tr>
+									<tr>
+											<td>점핑클럽 음악줄넘기</td>
+											<td>경기 수원시 권선구 금곡로 106,우성메디피아 5층 501호 (금곡동)</td>
+											<td>레저업소 - 기타레져업소</td>
+											<td>031-269-6689</td>
+										</tr>
+									<tr>
+											<td>커피9</td>
+											<td>경기 수원시 장안구 화산로203번길 34 1층 2호 (율전동)</td>
+											<td>일반휴게음식 - 서양음식</td>
+											<td>031-223-9159</td>
+										</tr>
+									<tr>
+											<td>솔대노리협동조합</td>
+											<td>경기 수원시 장안구 경수대로 893 2층 B-201호 수원종합운동장 (조원동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td></td>
+										</tr>
+									<tr>
+											<td>에코버튼주식회사</td>
+											<td>경기 수원시 장안구 경수대로995번길 11-27 1층 (송죽동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td></td>
+										</tr>
+									<tr>
+											<td>For you 디자인</td>
+											<td>경기 수원시 장안구 서부로2207번길 22 (율전동)</td>
+											<td>주방용구 - 주방용구</td>
+											<td>031-268-2494</td>
+										</tr>
+									<tr>
+											<td>궁칼국수</td>
+											<td>경기 수원시 팔달구 화서문로32번길 28 (신풍동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-243-3102</td>
+										</tr>
+									<tr>
+											<td>시원</td>
+											<td>경기 수원시 영통구 중부대로 274 (매탄동)</td>
+											<td>보건위생 - 피부미용실</td>
+											<td>031-238-7580</td>
+										</tr>
+									<tr>
+											<td>초록별음악교습소</td>
+											<td>경기 수원시 권선구 동수원로145번길 74 2동 1층 112호 상가 (권선동,수원아이파크시티1단지)</td>
+											<td>학원 - 예•체능계학원</td>
+											<td>031-225-9225</td>
+										</tr>
+									<tr>
+											<td>블리스(BLISS)</td>
+											<td>경기 수원시 팔달구 권광로 146 204호 벽산그랜드코아 (인계동)</td>
+											<td>회원제형태 - 기타4</td>
+											<td>070-2782-0117</td>
+										</tr>
+									<tr>
+											<td>씨유광교중앙점</td>
+											<td>경기 수원시 영통구 대학3로4번길 12 106호(이의동,이스턴타워)</td>
+											<td>유통업 영리 - 편 의 점</td>
+											<td>031-505-1548</td>
+										</tr>
+									<tr>
+											<td>부강축산</td>
+											<td>경기 수원시 영통구 영통로 136, 119호 (망포동,센트럴타워)</td>
+											<td>음료식품 - 정육점</td>
+											<td>031-244-0932</td>
+										</tr>
+									<tr>
+											<td>노벰버(November)</td>
+											<td>경기 수원시 장안구 조원로46번길 17 1층 (조원동)</td>
+											<td>의류 - 정장</td>
+											<td>031-243-1380</td>
+										</tr>
+									<tr>
+											<td>새림</td>
+											<td>경기 수원시 장안구 정조로 941 2층 101호 (영화동)</td>
+											<td>보건위생 - 화장품</td>
+											<td>031-246-7929</td>
+										</tr>
+									<tr>
+											<td>주식회사위대한국보환경</td>
+											<td>경기 수원시 팔달구 수원천로 333 (북수동)</td>
+											<td>용역 서비스 - 종합용역</td>
+											<td>070-7862-9453</td>
+										</tr>
+									<tr>
+											<td>홍어1번가</td>
+											<td>경기 수원시 장안구 팔달로271번길 16-2 1층 (영화동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-244-7987</td>
+										</tr>
+									<tr>
+											<td>좋은이불</td>
+											<td>경기 수원시 영통구 인계로292번길 42-5 (매탄동)</td>
+											<td>직물 - 침구•수예점</td>
+											<td>031-211-9977</td>
+										</tr>
+									<tr>
+											<td>우리테크원</td>
+											<td>경기 수원시 장안구 대평로51번길 56, 255동1802호(정자동,꽃뫼노을마을한국아파트)</td>
+											<td>용역 서비스 - 기타용역서비스</td>
+											<td>02-1661-4319</td>
+										</tr>
+									<tr>
+											<td>해우리의원</td>
+											<td>경기 수원시 장안구 장안로 262 (정자동)</td>
+											<td>의원 - 의원</td>
+											<td>031-271-7779</td>
+										</tr>
+									<tr>
+											<td>잉글리쉬무무탑동제일학습관학원</td>
+											<td>경기 수원시 권선구 상탑로39번길 41 2층 (탑동)</td>
+											<td>회원제형태 - 학원</td>
+											<td>070-4210-0573</td>
+										</tr>
+									<tr>
+											<td>이모동태탕</td>
+											<td>경기 수원시 권선구 경수대로 408, 107호(권선동,청광노블하임)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-233-1002</td>
+										</tr>
+									<tr>
+											<td>우리토탈</td>
+											<td>경기 수원시 장안구 파장로60번길 14-6 1층 (파장동)</td>
+											<td>사무통신 - 컴퓨터</td>
+											<td>031-256-3350</td>
+										</tr>
+									<tr>
+											<td>정자이발</td>
+											<td>경기 수원시 권선구 권광로92번길 8 (권선동)</td>
+											<td>보건위생 - 이용원</td>
+											<td>031-226-9938</td>
+										</tr>
+									<tr>
+											<td>해법공부방</td>
+											<td>경기 수원시 영통구 영통로 498 141동 102호 (영통동,황골마을주공1단지아파트)</td>
+											<td>회원제형태 - 학원</td>
+											<td>031-202-3519</td>
+										</tr>
+									<tr>
+											<td>에밀리</td>
+											<td>경기 수원시 팔달구 덕영대로757번길 23 2동 301호 (화서동,영광아파트)</td>
+											<td>회원제형태 - 기타4</td>
+											<td>031-251-8248</td>
+										</tr>
+									<tr>
+											<td>두그루식당</td>
+											<td>경기 수원시 팔달구 팔달문로 171-2, 1층(우만동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>070-8262-2175</td>
+										</tr>
+									<tr>
+											<td>율헤어</td>
+											<td>경기 수원시 영통구 센트럴타운로 107, 204동 1층 1-72호 (이의동,광교푸르지오월드스퀘어)</td>
+											<td>보건위생 - 미용원</td>
+											<td>031-216-7708</td>
+										</tr>
+									<tr>
+											<td>현대사무용가구</td>
+											<td>경기 수원시 권선구 권선로 641,3층(권선동)</td>
+											<td>가구 - 일반가구</td>
+											<td>031-267-0424</td>
+										</tr>
+									<tr>
+											<td>레드</td>
+											<td>경기 수원시 권선구 세지로112번길 25-1 (권선동)</td>
+											<td>음료식품 - 기타음료식품</td>
+											<td>031-236-8008</td>
+										</tr>
+									<tr>
+											<td>영화인테리어</td>
+											<td>경기 수원시 장안구 팔달로225번길 17 101호 (영화동,삼성빌)</td>
+											<td>건축자재 - 인테리어전문</td>
+											<td>031-248-9100</td>
+										</tr>
+									<tr>
+											<td>애슐리헤어</td>
+											<td>경기 수원시 장안구 금당로9번길 62 1층104호(조원동)</td>
+											<td>보건위생 - 미용원</td>
+											<td>070-8829-7828</td>
+										</tr>
+									<tr>
+											<td>세모</td>
+											<td>경기 수원시 권선구 곡반정로19번길 59 (곡반정동)102호</td>
+											<td>용역 서비스 - 종합용역</td>
+											<td>031-236-5396</td>
+										</tr>
+									<tr>
+											<td>가람어린이집[아이행복]</td>
+											<td>경기 수원시 영통구 광교호수공원로 45 관리동 광교호반베르디움 (원천동)</td>
+											<td>학원 - 유아원</td>
+											<td>031-214-3690</td>
+										</tr>
+									<tr>
+											<td>시온냉동</td>
+											<td>경기 수원시 팔달구 고화로71번길 35-4 C동 03호 (고등동)</td>
+											<td>수리서비스 - 가정용품수리</td>
+											<td>070-8945-3650</td>
+										</tr>
+									<tr>
+											<td>SK모터스</td>
+											<td>경기 수원시 권선구 권선로 254 라동 (고색동)</td>
+											<td>자동차정비 유지 - 자동차정비</td>
+											<td>031-293-9997</td>
+										</tr>
+									<tr>
+											<td>아모레카운셀러</td>
+											<td>경기 수원시 영통구 반달로7번길 6 503호 센터프라자 (영통동,센타프라자)</td>
+											<td>보건위생 - 화장품</td>
+											<td>031-206-6141</td>
+										</tr>
+									<tr>
+											<td>주식회사 에스티제이</td>
+											<td>경기 수원시 장안구 경수대로 927, 1층 (송죽동)</td>
+											<td>사무통신 - 통신기기</td>
+											<td>070-4755-3334</td>
+										</tr>
+									<tr>
+											<td>아모레카운셀러</td>
+											<td>경기 수원시 장안구 경수대로 771 2층  흥신빌딩 (영화동)</td>
+											<td>보건위생 - 화장품</td>
+											<td>031-244-8472</td>
+										</tr>
+									<tr>
+											<td>아이들세상</td>
+											<td>경기 수원시 영통구 동수원로 316 2-506 (매탄동,임광아파트)</td>
+											<td>회원제형태 - 학원</td>
+											<td>031-761-4333</td>
+										</tr>
+									<tr>
+											<td>이레철물전기</td>
+											<td>경기 수원시 장안구 하률로25번길 6-12 1층(천천동)</td>
+											<td>건축자재 - 목재•석재•철물</td>
+											<td>031-271-0970</td>
+										</tr>
+									<tr>
+											<td>루디아</td>
+											<td>경기 수원시 영통구 봉영로1744번길 11 1호 12호 벽산풍림아파트 상가 동비 (영통동,황골마을2단지아파트)</td>
+											<td>의류 - 정장</td>
+											<td>031-203-4617</td>
+										</tr>
+									<tr>
+											<td>토탈공방</td>
+											<td>경기 수원시 팔달구 장다리로233번길 12-10 203(인계동)</td>
+											<td>용역 서비스 - 가례서비스업</td>
+											<td>031-234-0044</td>
+										</tr>
+									<tr>
+											<td>부타타투아카데미</td>
+											<td>경기 수원시 권선구 동수원로146번길 291 201호 (곡반정동)</td>
+											<td>용역 서비스 - 사무서비스</td>
+											<td>070-7636-4405</td>
+										</tr>
+									<tr>
+											<td>포명천천</td>
+											<td>경기 수원시 영통구 반달로 38,2층 주흥빌딩(영통동)</td>
+											<td>일반휴게음식 - 중국식</td>
+											<td>031-204-6445</td>
+										</tr>
+									<tr>
+											<td>웰빙반찬</td>
+											<td>경기 수원시 장안구 금당로10번길 26 (조원동)</td>
+											<td>음료식품 - 기타음료식품</td>
+											<td>031-257-7798</td>
+										</tr>
+									<tr>
+											<td>헤러베라</td>
+											<td>경기 수원시 팔달구 수성로182번길 97-1 1층 (화서동)</td>
+											<td>보건위생 - 미용원</td>
+											<td>031-242-3827</td>
+										</tr>
+									<tr>
+											<td>에스가드코리아</td>
+											<td>경기 수원시 영통구 중부대로448번길 97 115호 (원천동)</td>
+											<td>자동차정비 유지 - 자동차정비</td>
+											<td>031-222-1988</td>
+										</tr>
+									<tr>
+											<td>아모레카운셀러</td>
+											<td>경기 수원시 장안구 경수대로 771 2층  흥신빌딩 (영화동)</td>
+											<td>보건위생 - 화장품</td>
+											<td>031-244-8472</td>
+										</tr>
+									<tr>
+											<td>동수원요리전문학원</td>
+											<td>경기 수원시 팔달구 중부대로223번길 4 4층 403호 상록블루하우스 (우만동)</td>
+											<td>회원제형태 - 학원</td>
+											<td>031-213-5330</td>
+										</tr>
+									<tr>
+											<td>유비스포</td>
+											<td>경기 수원시 팔달구 인계로68번길 22 1층 (인계동)</td>
+											<td>레져용품 - 스포츠•레져용품</td>
+											<td>070-7585-5894</td>
+										</tr>
+									<tr>
+											<td>까롱헤어</td>
+											<td>경기 수원시 장안구 수성로350번길 4 (영화동)</td>
+											<td>보건위생 - 미용원</td>
+											<td>031-258-0508</td>
+										</tr>
+									<tr>
+											<td>SNB</td>
+											<td>경기 수원시 장안구 경수대로 893 C동 202호 KT야구장 (조원동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>070-7848-9304</td>
+										</tr>
+									<tr>
+											<td>수학날개학원</td>
+											<td>경기 수원시 영통구 센트럴타운로100번길 8 3층 301호 (이의동)</td>
+											<td>회원제형태 - 학원</td>
+											<td>031-217-6204</td>
+										</tr>
+									<tr>
+											<td>민구텔레콤</td>
+											<td>경기 수원시 장안구 덕영대로425번길 23 (율전동)</td>
+											<td>사무통신 - 통신기기</td>
+											<td>031-268-0956</td>
+										</tr>
+									<tr>
+											<td>땅콩</td>
+											<td>경기 수원시 장안구 경수대로955번길 19 (송죽동)</td>
+											<td>의류 - 기타의류</td>
+											<td>070-1869-0645</td>
+										</tr>
+									<tr>
+											<td>하늘음악교습소</td>
+											<td>경기 수원시 팔달구 중부대로 184-24 (인계동)</td>
+											<td>학원 - 예•체능계학원</td>
+											<td>031-225-2300</td>
+										</tr>
+									<tr>
+											<td>호매실장애인보호작업장</td>
+											<td>경기 수원시 권선구 구운로47번길 42,1층 102호 (구운동,유정빌딩)</td>
+											<td>음료식품 - 제과점</td>
+											<td>031-893-2192</td>
+										</tr>
+									<tr>
+											<td>뽕뜨락피자 영통1호점</td>
+											<td>경기 수원시 영통구 영통로200번길 34 103호(망포동)</td>
+											<td>일반휴게음식 - 서양음식</td>
+											<td>031-204-0304</td>
+										</tr>
+									<tr>
+											<td>능실경희대석사인성태권도</td>
+											<td>경기 수원시 권선구 호매실동 144-3 블루테라스제6층604호</td>
+											<td>학원 - 예•체능계학원</td>
+											<td>031-278-7272</td>
+										</tr>
+									<tr>
+											<td>두부장수</td>
+											<td>경기 수원시 영통구 효원로 363 B층 132호 위브하늘채 (매탄동,매탄위브하늘채아파트)</td>
+											<td>음료식품 - 기타음료식품</td>
+											<td>031-214-5623</td>
+										</tr>
+									<tr>
+											<td>이챕터스학원</td>
+											<td>경기 수원시 영통구 봉영로 1623 510호 (영통동)</td>
+											<td>회원제형태 - 학원</td>
+											<td>031-202-5068</td>
+										</tr>
+									<tr>
+											<td>화정축산</td>
+											<td>경기 수원시 팔달구 월드컵로321번길 40 </td>
+											<td>음료식품 - 정육점</td>
+											<td>031-378-4007</td>
+										</tr>
+									<tr>
+											<td>커피에반하다</td>
+											<td>경기 수원시 영통구 센트럴타운로 103 1층 122호 (이의동)</td>
+											<td>일반휴게음식 - 서양음식</td>
+											<td>031-214-5565</td>
+										</tr>
+									<tr>
+											<td>아모레카운셀러</td>
+											<td>경기 수원시 영통구 봉영로 1763 601호 (영통동,한성프라자)</td>
+											<td>보건위생 - 화장품</td>
+											<td>031-203-8044</td>
+										</tr>
+									<tr>
+											<td>고색자전거수리점</td>
+											<td>경기 수원시 권선구 고색동 55-3</td>
+											<td>레져용품 - 스포츠•레져용품</td>
+											<td>031-222-8360</td>
+										</tr>
+									<tr>
+											<td>단골양행</td>
+											<td>경기 수원시 팔달구 팔달문로4번길 19 (영동)</td>
+											<td>의류 - 정장</td>
+											<td>070-8673-8080</td>
+										</tr>
+									<tr>
+											<td>추오정 남원 추어탕</td>
+											<td>경기 수원시 장안구 천천로 240 1,2층 (이목동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-268-0789</td>
+										</tr>
+									<tr>
+											<td>황소곱창</td>
+											<td>경기 수원시 권선구 덕영대로1207번길 26-21 (권선동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-893-0065</td>
+										</tr>
+									<tr>
+											<td>광명건축</td>
+											<td>경기 수원시 팔달구 세지로 311-4 (지동)</td>
+											<td>건축자재 - 인테리어전문</td>
+											<td>031-255-9413</td>
+										</tr>
+									<tr>
+											<td>크리스탈샘물</td>
+											<td>경기 수원시 팔달구 우만동 473-20 현대쌍동이맨션 나 5/4</td>
+											<td>유통업 영리 - 기타유통업</td>
+											<td>031-241-1687</td>
+										</tr>
+									<tr>
+											<td>평동광택사</td>
+											<td>경기 수원시 권선구 평동로90번길 40 (평동)</td>
+											<td>자동차정비 유지 - 카인테리어</td>
+											<td>031-291-7329</td>
+										</tr>
+									<tr>
+											<td>가츠맘</td>
+											<td>경기 수원시 영통구 영통로 513 1층 (영통동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>001-0000-0000</td>
+										</tr>
+									<tr>
+											<td>가비앙</td>
+											<td>경기 수원시 영통구 영통로 127 B03-04호 (망포동,센타프라자)</td>
+											<td>일반휴게음식 - 서양음식</td>
+											<td>031-111-1111</td>
+										</tr>
+									<tr>
+											<td>한국당</td>
+											<td>경기 수원시 팔달구 매산로1가 57 역전시장 B-1</td>
+											<td>전기제품 - 기타전기제품</td>
+											<td>031-256-6763</td>
+										</tr>
+									<tr>
+											<td>에이스중기</td>
+											<td>경기 수원시 팔달구 인계동 1025-5번지</td>
+											<td>기타 - 기계공구</td>
+											<td>031-233-7177</td>
+										</tr>
+									<tr>
+											<td>GS25광교대림점</td>
+											<td>경기 수원시 영통구 센트럴타운로 76 2동103호(이의동1326,이편한세상광교)</td>
+											<td>유통업 영리 - 편 의 점</td>
+											<td></td>
+										</tr>
+									<tr>
+											<td>에이팩토리</td>
+											<td>경기 수원시 영통구 영일로6번길 33 지하1층  상가 (영통동)</td>
+											<td>일반휴게음식 - 주점</td>
+											<td>031-205-8625</td>
+										</tr>
+									<tr>
+											<td>김민정헤어갤러리</td>
+											<td>경기 수원시 팔달구 팔달로127번길 39 1층 (화서동)</td>
+											<td>보건위생 - 미용원</td>
+											<td>031-258-0031</td>
+										</tr>
+									<tr>
+											<td>강선화헤어뷰티</td>
+											<td>경기 수원시 팔달구 우만동 92-1, 블루하우스 720호</td>
+											<td>보건위생 - 미용원</td>
+											<td>031-212-4023</td>
+										</tr>
+									<tr>
+											<td>코리안숯불바베큐</td>
+											<td>경기 수원시 영통구 매영로345번길 7 126호 영통트리플렉스 (영통동)</td>
+											<td>일반휴게음식 - 스넥</td>
+											<td>031-203-5592</td>
+										</tr>
+									<tr>
+											<td>신통치킨</td>
+											<td>경기 수원시 영통구 신원로 107 A동 106호 (신동)</td>
+											<td>일반휴게음식 - 일반한식</td>
+											<td>031-205-9588</td>
+										</tr>
+									<tr>
+											<td>오리진애드</td>
+											<td>경기 수원시 장안구 경수대로 781-2 2층 (영화동)</td>
+											<td>용역 서비스 - 종합용역</td>
+											<td>031-292-7562</td>
+										</tr>
+									<tr>
+											<td>bhc(경기대점)</td>
+											<td>경기 수원시 장안구 창훈로60번길 29 (연무동)</td>
+											<td>일반휴게음식 - 스넥</td>
+											<td>031-241-5892</td>
+										</tr>
+									</tbody>
+					</table>
+				</div>
+
+				<div class="paging">
+					<span class="left_b"><a href="?pageIndex=1" onclick="fn_select_noticeList(1);return false; "><img src="/commons/main/images/basic/btn_end.jpg" alt="처음" border="0"></a><a href="?pageIndex=440" onclick="fn_select_noticeList(440);return false; "><img src="/commons/main/images/basic/btn_next.jpg" alt="이전" border="0"></a></span><a href="?pageIndex=441" onclick="fn_select_noticeList(441);return false; ">441</a><a href="?pageIndex=442" onclick="fn_select_noticeList(442);return false; ">442</a><a href="?pageIndex=443" onclick="fn_select_noticeList(443);return false; ">443</a><a href="?pageIndex=444" onclick="fn_select_noticeList(444);return false; ">444</a><strong>445</strong><a href="?pageIndex=446" onclick="fn_select_noticeList(446);return false; ">446</a><a href="?pageIndex=447" onclick="fn_select_noticeList(447);return false; ">447</a><a href="?pageIndex=448" onclick="fn_select_noticeList(448);return false; ">448</a><a href="?pageIndex=449" onclick="fn_select_noticeList(449);return false; ">449</a><a href="?pageIndex=450" onclick="fn_select_noticeList(450);return false; ">450</a><span class="right_b"><a href="?pageIndex=451" onclick="fn_select_noticeList(451);return false; "><img src="/commons/main/images/basic/btn_prev.jpg" alt="다음" border="0"></a><a href="?pageIndex=492" onclick="fn_select_noticeList(492);return false; "><img src="/commons/main/images/basic/btn_first.jpg" alt="마지막" border="0"></a></span>
+</div>
+				
+				</form>
+				<!-- ++++++++++++++++++++++++++++++++ content end ++++++++++++++++++++++++++++++++++ -->
+				
+			</div>
+</section>
+
+		</div>
+	</div>
+	<!-- //container float_wrap -->
+	<footer id="footer">
+		<div class="footer_in_wrap">
+			<p class="foot_img"><img src="/commons/main/images/global/foot_img.jpg" alt="경기지역화폐"></p>
+			<div class="copy_box">
+				<ul class="float_wrap">
+					<!-- <li><a href="#">
+						홈페이지 개선요청
+					</a></li>
+					<li><a href="#">
+						홈페이지 이용안내
+					</a></li> -->
+					<li><a href="#">
+						<strong class="col_org">개인정보처리방침</strong>
+					</a></li>
+					<li><a href="#">
+						이메일무단수집거부
+					</a></li>
+				</ul>
+			</div><!--//copy_box -->
+			<div class="copy_box2">
+				<address class="item1 float_wrap">(재)경기도시장상권진흥원 (16514) 경기도 수원시 영통구 광교중앙로 140(하동) 수원컨벤션센터 5층
+				<p class="mgn_t10">경기지역화폐는 코나카드 플랫폼을 통해 발급됩니다.<br>
+코나카드 고객센터 : 1899-7997(주말, 공휴일 제외 09:00 - 18:00)</p>
+				</address>
+				<p class="item2">© GYEONGGI PROVINCE All Rights Reserved.</p>
+			</div><!--//copy_box2 -->
+
+			<article class="foot_select">
+				<h3 class="hidden_word">관련기관 바로가기</h3>
+				<div class="mgn_b5">
+					<label for="search_f" class="hidden_word">관련사이트 바로가기 선택</label>
+					<div class="select_design in_length150">
+
+						<select name="" id="search_f">
+							<option value="" selected="selected">관련사이트 바로가기</option>
+							<option value="http://www.gg.go.kr/">경기도청</option>
+							<option value="https://www.gjf.or.kr/">경기일자리재단</option>
+							<option value="https://www.gcgf.or.kr/">경기신용보증</option>
+							<option value="https://www.gbsa.or.kr/">경기도경제과학진흥원</option>
+							<option value="http://www.gmr.or.kr/">경기도시장상권진흥원</option>
+						</select>
+					</div>
+					<a href="#" class="select_go" onclick="window.open(jQuery('#search_f option:selected').val());" title="새창열림">이동
+					</a>
+				</div>
+
+			</article>
+		</div>
+
+
+	</footer>
+	<script>title_copy('경기지역화폐');// title 출력 부분 </script>
+	
+	<!-- 
+			<footer>
+				<div class="footer__in">
+					<p class="foot_img"><img src="/commons/main/images/global/foot_img.jpg" alt="경기도교육청"></p>
+
+					<address>
+						남부청사 (16279) 경기도 수원시 장안구 조원로 18&nbsp;&nbsp;☎ 031-249-0114<br>
+						북부청사 (11759) 경기도 의정부시 동일로 700
+					</address>
+					<p class="copy-box">
+						Copyright(c) 2017 Gyeonggido Office of Education, All Right Reserved
+					</p>
+					</div>
+			</footer>
+	 --><!-- 추가 -->
+
+	<!--// 추가 -->
+
+
+</body></html>
